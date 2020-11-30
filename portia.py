@@ -36,3 +36,16 @@ def fetch_entrez_id_to_file(complete_read_file_path: str, complete_write_file_pa
             '\n'
         )
     )
+
+
+def fetch_entrez_id_from_list_to_file(gene_id_list: List[str], complete_write_file_path: str):
+
+    entrez_ids: List[str] = fetch_entrez_id_from_list(gene_id_list)
+    fh.writefile(
+        complete_write_file_path,
+        u.convert_list_string(
+            entrez_ids,
+            '\n'
+        )
+    )
+
