@@ -136,3 +136,6 @@ output/
 __temp__/
 _temp_/
 input/
+
+# GEnerated files
+OutputFile.txt
