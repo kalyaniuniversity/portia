@@ -1,8 +1,7 @@
+from typing import Dict
 import requests
 from bs4 import BeautifulSoup as bs
 from bs4 import Tag
-
-from typing import Dict
 
 
 def get_dom(url: str) -> bs:

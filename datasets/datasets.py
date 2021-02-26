@@ -1,5 +1,6 @@
-from portia_utils import file_handler as fh
 from typing import List
+
+from portia_utils import file_handler as fh
 
 
 def dlbcl_1000() -> List[str]:
