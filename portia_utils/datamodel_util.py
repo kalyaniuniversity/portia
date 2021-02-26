@@ -1,5 +1,6 @@
 from typing import List, Union
-from portia_datastructure import model as m
+import copy
+from portia_datamodel import model as m
 
 
 def get_list_of_list_from_datamatrix(datamatrix: m.DataMatrix) -> List[List[float]]:
@@ -24,3 +25,35 @@ def get_classlabeled_list_of_list_from_datamatrix(
 		list_of_list.append(values)
 
 	return list_of_list
+
+
+def get_label_separated_attributes(
+		attribute_list: List[float],
+		classlabels: List[str],
+		unique_classlabels: List[str]
+) -> List[List[float]]:
+
+	label_separated_attributes: List[List[float]] = list()
+
+	for label in unique_classlabels:
+
+		similar_labeled_attributes: List[float] = list()
+
+		for i in range(0, len(attribute_list)):
+			if classlabels[i] == label:
+				similar_labeled_attributes.append(attribute_list[i])
+
+		label_separated_attributes.append(copy.deepcopy(similar_labeled_attributes))
+
+	return label_separated_attributes
+
+
+def get_column(list_of_list: List[List], index: int) -> List:
+
+	column: List = list()
+
+	for row in list_of_list:
+		column.append(row[index])
+
+	return column
+

@@ -2,7 +2,7 @@ import copy
 import os
 from typing import List, Union
 import file_handler as fh
-from portia_datastructure import model as m
+from portia_datamodel import model as m
 import util as u
 import datamodel_util as du
 
