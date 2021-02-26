@@ -1,5 +1,11 @@
 from typing import List
+import random
+import string
 from portia_types.associated_proteins import AssociatedProteins
+
+
+def hash(length=10) -> str:
+    return ''.join(random.choices(string.ascii_uppercase + string.digits, k=length))
 
 
 def convert_list_string(list_content: List[str], separator: str = ",") -> str:
