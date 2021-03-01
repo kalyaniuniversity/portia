@@ -132,10 +132,8 @@ dmypy.json
 .idea
 portia.iml
 test.py
+portia_tester.py
 output/
 __temp__/
 _temp_/
 input/
-
-# GEnerated files
-OutputFile.txt

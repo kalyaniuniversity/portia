@@ -1,51 +1,27 @@
-from web_scrapper import reactome_scrapper as rs
-from portia_utils import file_handler as fh
-from portia_utils import util as u
-from typing import List
+from portia_api.entrez_id_manager import EntrezIDManager
+from portia_api.associated_protein_manager import AssociatedProteinManager
+from portia_api.associate_pubmed_manager import AssociatedPubmedManager
 
 
-def fetch_entrez_id(gene_id: str):
-    return rs.get_entrez_id(gene_id)
+def get_entrez_id_manager() -> EntrezIDManager:
+    return EntrezIDManager()
 
 
-def fetch_entrez_id_from_list(gene_id_list: List[str]) -> List[str]:
-
-    entrez_ids: List[str] = []
-
-    for gene_id in gene_id_list:
-        entrez_ids.append(fetch_entrez_id(gene_id))
-
-    return entrez_ids
+def get_associated_protein_manager() -> AssociatedProteinManager:
+    return AssociatedProteinManager()
 
 
-def fetch_entrez_id_from_file(complete_file_path: str):
-
-    gene_id_list: List[str] = fh.readfile(complete_file_path, True)
-    entrez_id_list: List[str] = fetch_entrez_id_from_list(gene_id_list)
-
-    return entrez_id_list
+def get_associated_pubmed_manager() -> AssociatedPubmedManager:
+    return AssociatedPubmedManager()
 
 
-def fetch_entrez_id_to_file(complete_read_file_path: str, complete_write_file_path: str):
-
-    entrez_id_list: List[str] = fetch_entrez_id_from_file(complete_read_file_path)
-    fh.writefile(
-        complete_write_file_path,
-        u.convert_list_string(
-            entrez_id_list,
-            '\n'
-        )
-    )
+def eim() -> EntrezIDManager:
+    return get_entrez_id_manager()
 
 
-def fetch_entrez_id_from_list_to_file(gene_id_list: List[str], complete_write_file_path: str):
+def apm() -> AssociatedProteinManager:
+    return get_associated_protein_manager()
 
-    entrez_ids: List[str] = fetch_entrez_id_from_list(gene_id_list)
-    fh.writefile(
-        complete_write_file_path,
-        u.convert_list_string(
-            entrez_ids,
-            '\n'
-        )
-    )
 
+def pubmg() -> AssociatedPubmedManager:
+    return AssociatedPubmedManager()

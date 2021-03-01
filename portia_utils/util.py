@@ -1,4 +1,5 @@
 from typing import List
+from portia_types.associated_proteins import AssociatedProteins
 
 
 def convert_list_string(list_content: List[str], separator: str = ",") -> str:
@@ -11,16 +12,15 @@ def convert_list_string(list_content: List[str], separator: str = ",") -> str:
     return content
 
 
-def convert_2D_list_string(list_content):
+def convert_associated_proteins_to_string(associated_proteins: AssociatedProteins) -> str:
+    return associated_proteins['gene_name'] + ' -> ' + convert_list_string(associated_proteins['proteins'])
 
-    content: str = ""
 
-    for data in list_content:
-        for i in range(len(data)):
-            if i != len(data)-1:
-                content += data[i] + ","
-            else:
-                content += data[i]
-        content += "\n"
+def convert_associated_proteins_list_to_string(associated_proteins_list: List[AssociatedProteins]) -> str:
+
+    content: str = ''
+
+    for associated_proteins in associated_proteins_list:
+        content += convert_associated_proteins_to_string(associated_proteins) + '\n'
 
     return content

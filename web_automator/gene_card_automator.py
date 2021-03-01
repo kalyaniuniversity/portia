@@ -1,19 +1,14 @@
+from bs4 import BeautifulSoup
+from bs4 import ResultSet
+from bs4 import Tag
+from selenium.webdriver.chrome.webdriver import WebDriver
 from portia_config import config
 from web_scrapper import scrapper as sc
-from selenium import webdriver as wd
-from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup
-from bs4 import Tag
-from bs4 import ResultSet
 
 
 def _drive(url: str) -> WebDriver:
 
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    driver: WebDriver = wd.Chrome(
-        chrome_options=chrome_options, executable_path=config.get_chrome_drive_destination())
+    driver: WebDriver = config.get_chrome_driver()
     driver.get(url)
     driver_content: WebDriver = driver.page_source
     driver.close()
