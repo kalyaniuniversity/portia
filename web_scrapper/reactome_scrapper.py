@@ -73,8 +73,7 @@ def get_associated_proteins(gene_tag: str) -> List[str]:
         result.append("n/a")
         return result
     else:
-        searched_result: ResultSet = div_content.find_all(
-            "h4", attrs={"class": "title"})
+        searched_result: ResultSet = div_content.find_all("h4", attrs={"class": "title"})
         for data in searched_result:
             result.append(data.find("a").text)
 
