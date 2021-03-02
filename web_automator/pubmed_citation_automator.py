@@ -1,8 +1,7 @@
-import requests
-from bs4 import BeautifulSoup
 from time import sleep
-from selenium import webdriver
+
 from selenium.webdriver.chrome.webdriver import WebDriver
+
 from portia_config import config_for_pubmed as config
 
 

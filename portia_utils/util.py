@@ -1,4 +1,5 @@
 from typing import List
+
 from portia_types.associated_proteins import AssociatedProteins
 
 

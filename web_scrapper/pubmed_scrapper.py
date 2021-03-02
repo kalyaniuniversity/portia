@@ -1,14 +1,15 @@
+from typing import List
+
 import requests
 from bs4 import BeautifulSoup
-from portia_types.associate_pubmed_article import ArticleDictionary
-from typing import TypedDict
-from typing import List
+
+from portia_types.pubmed_article import ArticleDictionary
 from web_scrapper import pubmed_data_fetcher as pdf
 
 
 def fetch_article_details(tag: str) -> ArticleDictionary:
-    article_link = "https://pubmed.ncbi.nlm.nih.gov" + tag
 
+    article_link: str = "https://pubmed.ncbi.nlm.nih.gov" + tag
     html_content = requests.get(article_link).text
     soup = BeautifulSoup(html_content, "lxml")
 
@@ -16,10 +17,11 @@ def fetch_article_details(tag: str) -> ArticleDictionary:
         'link': article_link,
         'title': pdf.fetch_article_title(soup),
         'author': pdf.fetch_article_author(soup),
-        'pm_id': pdf.fetch_article_pmId(soup),
-        'pmc_id': pdf.fetch_article_pmcId(soup),
-        'doi': pdf.fetch_article_doiId(soup),
-        'abstruct': pdf.fetch_article_abstruct(soup)
+        'pm_id': pdf.fetch_article_pm_id(soup),
+        'pmc_id': pdf.fetch_article_pmc_id(soup),
+        'doi': pdf.fetch_article_doi_id(soup),
+        'abstract': pdf.fetch_article_abstract(soup),
+        'citation': None
     }
 
     return article_details

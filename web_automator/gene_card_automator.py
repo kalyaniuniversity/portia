@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from bs4 import ResultSet
 from bs4 import Tag
 from selenium.webdriver.chrome.webdriver import WebDriver
+
 from portia_config import config
 from web_scrapper import scrapper as sc
 

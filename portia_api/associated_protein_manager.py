@@ -1,4 +1,5 @@
 from typing import List
+
 from portia_types.associated_proteins import AssociatedProteins
 from portia_utils import file_handler as fh
 from portia_utils import util as u

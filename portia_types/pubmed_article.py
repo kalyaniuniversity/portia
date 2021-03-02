@@ -1,5 +1,6 @@
-from typing import TypedDict
 from typing import List
+from typing import Optional
+from typing import TypedDict
 
 
 class ArticleDictionary(TypedDict):
@@ -9,5 +10,5 @@ class ArticleDictionary(TypedDict):
     pm_id: str
     pmc_id: str
     doi: str
-    abstruct: str
-    citation: str
+    abstract: str
+    citation: Optional[str]
