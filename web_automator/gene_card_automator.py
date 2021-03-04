@@ -2,9 +2,11 @@ from bs4 import BeautifulSoup
 from bs4 import ResultSet
 from bs4 import Tag
 from selenium.webdriver.chrome.webdriver import WebDriver
-
-from portia_config import config
+from portia_config.config import PortiaConfig
 from web_scrapper import scrapper as sc
+
+
+config = PortiaConfig()
 
 
 def _drive(url: str) -> WebDriver:

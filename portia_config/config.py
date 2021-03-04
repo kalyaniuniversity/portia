@@ -3,68 +3,62 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.webdriver import WebDriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-_WEBDRIVER_OPTIONS: Options = Options()
-_WEBDRIVER_OPTIONS.add_argument('--headless')
-_WEBDRIVER: WebDriver = webdriver.Chrome(
-    ChromeDriverManager(
-        cache_valid_range=1,
-        log_level=0,
-        print_first_line=False
-    ).install(),
-    options=_WEBDRIVER_OPTIONS
-)
-_HEADED_WEBDRIVER: WebDriver = webdriver.Chrome(
-    ChromeDriverManager(
-        cache_valid_range=1,
-        log_level=0,
-        print_first_line=False
-    ).install()
-)
 
+class PortiaConfig:
 
-def get_chrome_driver() -> WebDriver:
-    global _WEBDRIVER
-    return _WEBDRIVER
+    def __init__(self):
+        self._options = Options()
+        self._options.add_argument('--headless')
+        self._web_driver: WebDriver = webdriver.Chrome(
+            ChromeDriverManager(
+                cache_valid_range=1,
+                log_level=0,
+                print_first_line=False
+            ).install(),
+            options=self._options
+        )
+        self._headed_web_driver: WebDriver = webdriver.Chrome(
+            ChromeDriverManager(
+                cache_valid_range=1,
+                log_level=0,
+                print_first_line=False
+            ).install()
+        )
 
+    def get_chrome_driver(self) -> WebDriver:
+        return self._web_driver
 
-def set_chrome_driver(
-        cache_valid_range: int,
-        options: Options,
-        log_level: int,
-        print_first_line: bool
-):
+    def set_chrome_driver(
+            self,
+            cache_valid_range: int,
+            options: Options,
+            log_level: int,
+            print_first_line: bool
+    ):
+        self._web_driver = webdriver.Chrome(
+            ChromeDriverManager(
+                cache_valid_range=cache_valid_range,
+                log_level=log_level,
+                print_first_line=print_first_line
+            ).install(),
+            options=options
+        )
 
-    global _WEBDRIVER
+    def get_headed_chrome_driver(self) -> WebDriver:
+        return self._headed_web_driver
 
-    _WEBDRIVER = webdriver.Chrome(
-        ChromeDriverManager(
-            cache_valid_range=cache_valid_range,
-            log_level=log_level,
-            print_first_line=print_first_line
-        ).install(),
-        options=options
-    )
-
-
-def get_headed_chrome_driver() -> WebDriver:
-    global _HEADED_WEBDRIVER
-    return _HEADED_WEBDRIVER
-
-
-def set_headed_chrome_driver(
-        cache_valid_range: int,
-        options: Options,
-        log_level: int,
-        print_first_line: bool
-):
-
-    global _HEADED_WEBDRIVER
-
-    _HEADED_WEBDRIVER = webdriver.Chrome(
-        ChromeDriverManager(
-            cache_valid_range=cache_valid_range,
-            log_level=log_level,
-            print_first_line=print_first_line
-        ).install(),
-        options=options
-    )
+    def set_headed_chrome_driver(
+            self,
+            cache_valid_range: int,
+            options: Options,
+            log_level: int,
+            print_first_line: bool
+    ):
+        self._headed_web_driver = webdriver.Chrome(
+            ChromeDriverManager(
+                cache_valid_range=cache_valid_range,
+                log_level=log_level,
+                print_first_line=print_first_line
+            ).install(),
+            options=options
+        )

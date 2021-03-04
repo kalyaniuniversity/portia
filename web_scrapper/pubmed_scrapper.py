@@ -12,8 +12,7 @@ class PubMedScrapper:
     def __init__(self):
         self._pdf = PubmedDataFetcher()
 
-    @classmethod
-    def fetch_article_details(cls, tag: str) -> ArticleDictionary:
+    def fetch_article_details(self, tag: str) -> ArticleDictionary:
 
         article_link: str = "https://pubmed.ncbi.nlm.nih.gov" + tag
         html_content = requests.get(article_link).text
@@ -21,24 +20,23 @@ class PubMedScrapper:
 
         article_details: ArticleDictionary = {
             'link': article_link,
-            'title': cls._pdf.fetch_article_title(soup),
-            'author': cls._pdf.fetch_article_author(soup),
-            'pm_id': cls._pdf.fetch_article_pm_id(soup),
-            'pmc_id': cls._pdf.fetch_article_pmc_id(soup),
-            'doi': cls._pdf.fetch_article_doi_id(soup),
-            'abstract': cls._pdf.fetch_article_abstract(soup),
+            'title': self._pdf.fetch_article_title(soup),
+            'author': self._pdf.fetch_article_author(soup),
+            'pm_id': self._pdf.fetch_article_pm_id(soup),
+            'pmc_id': self._pdf.fetch_article_pmc_id(soup),
+            'doi': self._pdf.fetch_article_doi_id(soup),
+            'abstract': self._pdf.fetch_article_abstract(soup),
             'citation': None
         }
 
         return article_details
 
-    @classmethod
-    def fetch_article_details_list(cls, tag_list: List[str], get_citation: bool = False) -> List[ArticleDictionary]:
+    def fetch_article_details_list(self, tag_list: List[str], get_citation: bool = False) -> List[ArticleDictionary]:
 
         article_detail_list: List[ArticleDictionary] = []
 
         for tag in tag_list:
-            article_detail_list.append(cls.fetch_article_details(tag))
+            article_detail_list.append(self.fetch_article_details(tag))
 
         if get_citation:
 
@@ -51,8 +49,7 @@ class PubMedScrapper:
 
         return article_detail_list
 
-    @classmethod
-    def get_associate_search_result(cls, tag, get_citation=False) -> List[ArticleDictionary]:
+    def get_search_result(self, tag, get_citation=False) -> List[ArticleDictionary]:
 
         generated_tag_list: List[str] = []
         url = "https://pubmed.ncbi.nlm.nih.gov/?term=" + tag.replace(' ', '+')
@@ -67,4 +64,4 @@ class PubMedScrapper:
             for article in article_content:
                 generated_tag_list.append(str(article.find("a", attrs={"class": "docsum-title"})['href']).strip())
 
-        return cls.fetch_article_details_list(generated_tag_list, get_citation)
+        return self.fetch_article_details_list(generated_tag_list, get_citation)

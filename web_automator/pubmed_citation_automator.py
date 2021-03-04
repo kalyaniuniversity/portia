@@ -1,7 +1,10 @@
 from time import sleep
 from typing import List
 from selenium.webdriver.chrome.webdriver import WebDriver
-from portia_config import config
+from portia_config.config import PortiaConfig
+
+
+config = PortiaConfig()
 
 
 def get_article_citation(tag_list):

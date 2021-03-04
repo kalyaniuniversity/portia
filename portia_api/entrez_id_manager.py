@@ -8,7 +8,7 @@ from web_scrapper import reactome_scrapper as rs
 class EntrezIDManager:
 
 	@classmethod
-	def fetch_entrez_id(self, gene_id: str) -> str:
+	def fetch_entrez_id(cls, gene_id: str) -> str:
 		return rs.get_entrez_id(gene_id)
 
 	@classmethod
