@@ -63,8 +63,7 @@ class PubMedScrapper:
             print("Your Keyword is wrong")
             exit()
         else:
-            article_content = soup.find_all(
-                "article", attrs={"class": "full-docsum"})
+            article_content = soup.find_all("article", attrs={"class": "full-docsum"})
             for article in article_content:
                 generated_tag_list.append(str(article.find("a", attrs={"class": "docsum-title"})['href']).strip())
 
