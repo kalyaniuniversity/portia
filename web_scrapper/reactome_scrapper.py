@@ -1,10 +1,8 @@
 from typing import List
-
 from bs4 import BeautifulSoup
 from bs4 import PageElement
 from bs4 import ResultSet
 from bs4 import Tag
-
 from web_automator import gene_card_automator as gca
 from web_scrapper import scrapper as sc
 

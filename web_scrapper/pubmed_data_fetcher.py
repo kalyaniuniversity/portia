@@ -1,4 +1,5 @@
 from typing import List
+from bs4 import Tag
 
 
 class PubmedDataFetcher:
@@ -11,7 +12,7 @@ class PubmedDataFetcher:
     def fetch_article_author(soup) -> List[str]:
 
         authors_name: List[str] = list()
-        div_content = soup.find("div", attrs={"class": "authors-list"})
+        div_content: Tag = soup.find("div", attrs={"class": "authors-list"})
 
         if div_content is not None:
             author_list = div_content.find_all("span", attrs={"class": "authors-list-item"})
@@ -28,9 +29,16 @@ class PubmedDataFetcher:
 
     @staticmethod
     def fetch_article_pmc_id(soup) -> str:
+
         pmc_id: str = "n/a"
-        if soup.find("span", attrs={"class": "identifier pmc"}) is not None:
-            pmc_id = str(soup.find("span", attrs={"class": "identifier pmc"}).find("a").text).strip()
+        span: Tag = soup.find("span", attrs={"class": "identifier pmc"})
+
+        if span is not None:
+            if span.find("a") is not None:
+                pmc_id = str(soup.find("span", attrs={"class": "identifier pmc"}).find("a").text).strip()
+            elif span.find("strong", attrs={"class": "current-id"}) is not None:
+                pmc_id = str(span.find("strong", attrs={"class": "current-id"}).text).strip()
+
         return pmc_id
 
     @staticmethod
