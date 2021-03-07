@@ -1,3 +1,4 @@
+import atexit
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.webdriver import WebDriver
@@ -9,23 +10,20 @@ class PortiaConfig:
     def __init__(self):
         self._options = Options()
         self._options.add_argument('--headless')
-        self._web_driver: WebDriver = webdriver.Chrome(
-            ChromeDriverManager(
-                cache_valid_range=1,
-                log_level=0,
-                print_first_line=False
-            ).install(),
-            options=self._options
-        )
-        self._headed_web_driver: WebDriver = webdriver.Chrome(
-            ChromeDriverManager(
-                cache_valid_range=1,
-                log_level=0,
-                print_first_line=False
-            ).install()
-        )
+        self._web_driver: WebDriver or None = None
+        self._headed_web_driver: WebDriver or None = None
+        atexit.register(self.cleanup)
 
     def get_chrome_driver(self) -> WebDriver:
+        if self._web_driver is None:
+            self._web_driver = webdriver.Chrome(
+                ChromeDriverManager(
+                    cache_valid_range=1,
+                    log_level=0,
+                    print_first_line=False
+                ).install(),
+                options=self._options
+            )
         return self._web_driver
 
     def set_chrome_driver(
@@ -44,7 +42,19 @@ class PortiaConfig:
             options=options
         )
 
+    def close_driver(self):
+        if self._web_driver is not None:
+            self._web_driver.close()
+
     def get_headed_chrome_driver(self) -> WebDriver:
+        if self._headed_web_driver is None:
+            self._headed_web_driver = webdriver.Chrome(
+                ChromeDriverManager(
+                    cache_valid_range=1,
+                    log_level=0,
+                    print_first_line=False
+                ).install()
+            )
         return self._headed_web_driver
 
     def set_headed_chrome_driver(
@@ -62,3 +72,11 @@ class PortiaConfig:
             ).install(),
             options=options
         )
+
+    def close_headed_driver(self):
+        if self._headed_web_driver is not None:
+            self._headed_web_driver.close()
+
+    def cleanup(self):
+        self.close_driver()
+        self.close_headed_driver()

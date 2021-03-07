@@ -25,6 +25,4 @@ def get_article_citation(tag_list):
             print(Exception)
             citation.append(' ')
 
-    driver.close()
-
     return citation

@@ -20,7 +20,6 @@ class PubmedManager:
             search_term,
             get_citation
         )
-
         return pubmed_result
 
     def fetch_with_associated_keywords(
@@ -46,6 +45,7 @@ class PubmedManager:
 
     @staticmethod
     def filter_by_keyword(article: ArticleDictionary, keywords: List[str]):
+        # TODO: case insensitive
         for word in keywords:
             if word in article['title'] or word in article['abstract']:
                 return True
