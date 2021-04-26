@@ -45,8 +45,7 @@ class PubmedManager:
 
     @staticmethod
     def filter_by_keyword(article: ArticleDictionary, keywords: List[str]):
-        # TODO: case insensitive
         for word in keywords:
-            if word in article['title'] or word in article['abstract']:
+            if word.lower() in article['title'].lower() or word.lower()in article['abstract'].lower():
                 return True
         return False
