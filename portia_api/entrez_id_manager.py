@@ -1,5 +1,4 @@
 from typing import List
-
 from portia_utils import file_handler as fh
 from portia_utils import util as u
 from web_scrapper import reactome_scrapper as rs
