@@ -1,0 +1,756 @@
+{
+   "articles": [
+      [
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29985166/",
+            "title":"CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease",
+            "author":[
+               "Kayaho Maeda",
+               "Kotaro Otomo",
+               "Nobuya Yoshida",
+               "Mones S Abu-Asab",
+               "Kunihiro Ichinose",
+               "Tomoya Nishino",
+               "Michihito Kono",
+               "Andrew Ferretti",
+               "Rhea Bhargava",
+               "Shoichi Maruyama",
+               "Sean Bickerton",
+               "Tarek M Fahmy",
+               "Maria G Tsokos",
+               "George C Tsokos"
+            ],
+            "pm_id":"29985166",
+            "pmc_id":"PMC6063476",
+            "doi":"10.1172/JCI99507",
+            "abstract":"Podocyte malfunction occurs in autoimmune and nonautoimmune kidney disease. Calcium signaling is essential for podocyte injury, but the role of Ca2+/calmodulin-dependent kinase (CaMK) signaling in podocytes has not been fully explored. We report that podocytes from patients with lupus nephritis and focal segmental glomerulosclerosis and lupus-prone and lipopolysaccharide- or adriamycin-treated mice display increased expression of CaMK IV (CaMK4), but not CaMK2. Mechanistically, CaMK4 modulated podocyte motility by altering the expression of the GTPases Rac1 and RhoA and suppressed the expression of nephrin, synaptopodin, and actin fibers in podocytes. In addition, it phosphorylated the scaffold protein 14-3-3\u03b2, which resulted in the release and degradation of synaptopodin. Targeted delivery of a CaMK4 inhibitor to podocytes preserved their ultrastructure, averted immune complex deposition and crescent formation, and suppressed proteinuria in lupus-prone mice and proteinuria in mice exposed to lipopolysaccharide-induced podocyte injury by preserving nephrin/synaptopodin expression. In animals exposed to adriamycin, podocyte-specific delivery of a CaMK4 inhibitor prevented and reversed podocyte injury and renal disease. We conclude that CaMK4 is pivotal in immune and nonimmune podocyte injury and that its targeted cell-specific inhibition preserves podocyte structure and function and should have therapeutic value in lupus nephritis and podocytopathies, including focal segmental glomerulosclerosis.",
+            "citation":"Maeda K, Otomo K, Yoshida N, Abu-Asab MS, Ichinose K, Nishino T, Kono M, Ferretti A, Bhargava R, Maruyama S, Bickerton S, Fahmy TM, Tsokos MG, Tsokos GC. CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease. J Clin Invest. 2018 Aug 1;128(8):3445-3459. doi: 10.1172/JCI99507. Epub 2018 Jul 9. PMID: 29985166; PMCID: PMC6063476."
+         },
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32332879/",
+            "title":"Circ-camk4 involved in cerebral ischemia/reperfusion induced neuronal injury",
+            "author":[
+               "Zhao-Huan Zhang",
+               "Yue-Rong Wang",
+               "Fei Li",
+               "Xiu-Ling Liu",
+               "Hui Zhang",
+               "Zhong-Zheng Zhu",
+               "Hai Huang",
+               "Xiao-Hui Xu"
+            ],
+            "pm_id":"32332879",
+            "pmc_id":"PMC7181679",
+            "doi":"10.1038/s41598-020-63686-1",
+            "abstract":"Stroke and subsequent cerebral ischemia/reperfusion (I/R) injury is a frequently occurring disease that can have serious consequences in the absence of timely intervention. Circular RNAs (circRNAs) in association with microRNAs (miRNAs) and RNA-binding proteins (RBPs) can influence gene expression. However, whether circRNAs have a role in cerebral I/R injury pathogenesis, especially soon after onset, is unclear. In this study, we used the SD rat middle cerebral artery occlusion (MCAO) model of stroke to examine the role of circRNAs in cerebral I/R injury. We used high-throughput sequencing (HTS) to compare the expression levels of circRNAs in cerebral cortex tissue from MCAO rats during the occlusion-reperfusion latency period 3 hours after I/R injury with those in control cerebral cortices. Our sequencing results revealed that expression levels of 44 circRNAs were significantly altered after I/R, with 16 and 28 circRNAs showing significant up- and down-regulation, respectively, relative to levels in control cortex. We extended these results in vitro in primary cultured neuron cells exposed to oxygen-glucose deprivation/reperfusion (OGD/R) using qRT-PCR to show that levels of circ-camk4 were increased in OGD/R neurons relative to control neurons. Bioinformatics analyses predicted that several miRNAs could be associated with circ-camk4 and this prediction was confirmed in a RNA pull-down assay. KEGG analysis to predict pathways that involve circ-camk4 included the glutamatergic synapse pathway, MAPK signaling pathway, and apoptosis signaling pathways, all of which are known to be involved in brain injury after I/R. Our results also demonstrate that levels of the human homolog to circ-camk4 (hsa-circ-camk4) are elevated in SH-SY5Y cells exposed to OGD/R treatment. Overexpression of hsa-circ-camk4 in SH-SY5Y cells significantly increased the rate of cell death after OGD/R, suggesting that circ-camk4 may play a key role in progression of cerebral I/R injury.",
+            "citation":"Zhang ZH, Wang YR, Li F, Liu XL, Zhang H, Zhu ZZ, Huang H, Xu XH. Circ-camk4 involved in cerebral ischemia/reperfusion induced neuronal injury. Sci Rep. 2020 Apr 24;10(1):7012. doi: 10.1038/s41598-020-63686-1. PMID: 32332879; PMCID: PMC7181679."
+         },
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32460794/",
+            "title":"CAMKK2-CAMK4 signaling regulates transferrin trafficking, turnover, and iron homeostasis",
+            "author":[
+               "Mohammad Golam Sabbir"
+            ],
+            "pm_id":"32460794",
+            "pmc_id":"PMC7251913",
+            "doi":"10.1186/s12964-020-00575-0",
+            "abstract":"Background:\n        \n      \n      Circulatory iron is a hazardous biometal. Therefore, iron is transported in a redox-safe state by a serum glycoprotein - transferrin (TF). Different organs acquire iron from the systemic circulation through a tightly regulated mechanism at the blood-tissue interface which involves receptor-mediated internalization of TF. Thus, abnormal TF trafficking may lead to iron dyshomeostasis associated with several diseases including neurodegeneration. Iron -induced toxicity can cause neuronal damage to iron-sensitive brain regions. Recently, it was discovered that CAMKK2, a calcium (Ca2+)/calmodulin-activated kinase, controls receptor-mediated TF trafficking in mouse tissues, specifically in the brain. The biological function of CAMKK2 is mediated through multiple downstream effectors. Both CAMKK2 and one of its downstream kinase, CAMK4, exhibit overlapping expression in mouse brain. The role of CAMK4 in vesicular transport has been reported and loss of CAMKK2 or CAMK4 leads to cognitive defects in mouse. Therefore, it was hypothesized that CAMKK2-CAMK4 signaling regulates receptor-mediated TF trafficking and iron homeostasis which may be responsible for the neuronal malfunction observed in CAMKK2- or CAMK4-deficient mice.",
+            "citation":"Sabbir MG. CAMKK2-CAMK4 signaling regulates transferrin trafficking, turnover, and iron homeostasis. Cell Commun Signal. 2020 May 27;18(1):80. doi: 10.1186/s12964-020-00575-0. PMID: 32460794; PMCID: PMC7251913."
+         },
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32862457/",
+            "title":"CaMK4-dependent phosphorylation of Akt/mTOR underlies Th17 excessive activation in experimental autoimmune prostatitis",
+            "author":[
+               "Chang-Sheng Zhan",
+               "Jia Chen",
+               "Jing Chen",
+               "Li-Gang Zhang",
+               "Yi Liu",
+               "He-Xi Du",
+               "Hui Wang",
+               "Mei-Juan Zheng",
+               "Zi-Qiang Yu",
+               "Xian-Guo Chen",
+               "Li Zhang",
+               "Chao-Zhao Liang"
+            ],
+            "pm_id":"32862457",
+            "pmc_id":"n/a",
+            "doi":"10.1096/fj.201902910RRR",
+            "abstract":"Chronic prostatitis and chronic pelvic pain syndrome (CP/CPPS) is a complicated syndrome characterized by genitourinary pain in the absence of bacterial infection. Th17 cell-driven autoimmunity has been proposed as a cause of CP/CPPS. However, the factors that promote Th17-driven autoimmunity in experimental autoimmune prostatitis (EAP) and the molecular mechanisms are still largely unknown. Here, we showed that Th17 cells were excessively activated, and blockade of IL-17A could effectively ameliorate various symptoms in EAP. Furthermore, we revealed that calcium/calmodulin-dependent kinase \u2163 (CaMK4), especially Thr196 p-CaMK4 was increased in the Th17 cells of the EAP group, which were activated by intracellular cytosolic Ca2+ . Pharmacologic and genetic inhibition of CaMK4 decreased the proportion of Th17 cells, and the protein and mRNA level of IL-17A, IL-22, and ROR\u03b3t. The phosphorylation of CaMK4 was dependent on the increase in intracellular cytosolic Ca2+ concentration in Th17 cells. A mechanistic study demonstrated that inhibition of CaMK4 reduced IL-17A production by decreasing the phosphorylation of Akt-mTOR, which was well accepted to positively regulate Th17 differentiation. Collectively, our results demonstrated that Ca2+ -CaMK4-Akt/mTOR-IL-17A axis inhibition may serve as a promising therapeutic strategy for CP/CPPS.",
+            "citation":"Zhan CS, Chen J, Chen J, Zhang LG, Liu Y, Du HX, Wang H, Zheng MJ, Yu ZQ, Chen XG, Zhang L, Liang CZ. CaMK4-dependent phosphorylation of Akt/mTOR underlies Th17 excessive activation in experimental autoimmune prostatitis. FASEB J. 2020 Oct;34(10):14006-14023. doi: 10.1096/fj.201902910RRR. Epub 2020 Aug 30. PMID: 32862457."
+         }
+      ],
+      [
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29985166/",
+            "title":"CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease",
+            "author":[
+               "Kayaho Maeda",
+               "Kotaro Otomo",
+               "Nobuya Yoshida",
+               "Mones S Abu-Asab",
+               "Kunihiro Ichinose",
+               "Tomoya Nishino",
+               "Michihito Kono",
+               "Andrew Ferretti",
+               "Rhea Bhargava",
+               "Shoichi Maruyama",
+               "Sean Bickerton",
+               "Tarek M Fahmy",
+               "Maria G Tsokos",
+               "George C Tsokos"
+            ],
+            "pm_id":"29985166",
+            "pmc_id":"PMC6063476",
+            "doi":"10.1172/JCI99507",
+            "abstract":"Podocyte malfunction occurs in autoimmune and nonautoimmune kidney disease. Calcium signaling is essential for podocyte injury, but the role of Ca2+/calmodulin-dependent kinase (CaMK) signaling in podocytes has not been fully explored. We report that podocytes from patients with lupus nephritis and focal segmental glomerulosclerosis and lupus-prone and lipopolysaccharide- or adriamycin-treated mice display increased expression of CaMK IV (CaMK4), but not CaMK2. Mechanistically, CaMK4 modulated podocyte motility by altering the expression of the GTPases Rac1 and RhoA and suppressed the expression of nephrin, synaptopodin, and actin fibers in podocytes. In addition, it phosphorylated the scaffold protein 14-3-3\u03b2, which resulted in the release and degradation of synaptopodin. Targeted delivery of a CaMK4 inhibitor to podocytes preserved their ultrastructure, averted immune complex deposition and crescent formation, and suppressed proteinuria in lupus-prone mice and proteinuria in mice exposed to lipopolysaccharide-induced podocyte injury by preserving nephrin/synaptopodin expression. In animals exposed to adriamycin, podocyte-specific delivery of a CaMK4 inhibitor prevented and reversed podocyte injury and renal disease. We conclude that CaMK4 is pivotal in immune and nonimmune podocyte injury and that its targeted cell-specific inhibition preserves podocyte structure and function and should have therapeutic value in lupus nephritis and podocytopathies, including focal segmental glomerulosclerosis.",
+            "citation":"Maeda K, Otomo K, Yoshida N, Abu-Asab MS, Ichinose K, Nishino T, Kono M, Ferretti A, Bhargava R, Maruyama S, Bickerton S, Fahmy TM, Tsokos MG, Tsokos GC. CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease. J Clin Invest. 2018 Aug 1;128(8):3445-3459. doi: 10.1172/JCI99507. Epub 2018 Jul 9. PMID: 29985166; PMCID: PMC6063476."
+         },
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32332879/",
+            "title":"Circ-camk4 involved in cerebral ischemia/reperfusion induced neuronal injury",
+            "author":[
+               "Zhao-Huan Zhang",
+               "Yue-Rong Wang",
+               "Fei Li",
+               "Xiu-Ling Liu",
+               "Hui Zhang",
+               "Zhong-Zheng Zhu",
+               "Hai Huang",
+               "Xiao-Hui Xu"
+            ],
+            "pm_id":"32332879",
+            "pmc_id":"PMC7181679",
+            "doi":"10.1038/s41598-020-63686-1",
+            "abstract":"Stroke and subsequent cerebral ischemia/reperfusion (I/R) injury is a frequently occurring disease that can have serious consequences in the absence of timely intervention. Circular RNAs (circRNAs) in association with microRNAs (miRNAs) and RNA-binding proteins (RBPs) can influence gene expression. However, whether circRNAs have a role in cerebral I/R injury pathogenesis, especially soon after onset, is unclear. In this study, we used the SD rat middle cerebral artery occlusion (MCAO) model of stroke to examine the role of circRNAs in cerebral I/R injury. We used high-throughput sequencing (HTS) to compare the expression levels of circRNAs in cerebral cortex tissue from MCAO rats during the occlusion-reperfusion latency period 3 hours after I/R injury with those in control cerebral cortices. Our sequencing results revealed that expression levels of 44 circRNAs were significantly altered after I/R, with 16 and 28 circRNAs showing significant up- and down-regulation, respectively, relative to levels in control cortex. We extended these results in vitro in primary cultured neuron cells exposed to oxygen-glucose deprivation/reperfusion (OGD/R) using qRT-PCR to show that levels of circ-camk4 were increased in OGD/R neurons relative to control neurons. Bioinformatics analyses predicted that several miRNAs could be associated with circ-camk4 and this prediction was confirmed in a RNA pull-down assay. KEGG analysis to predict pathways that involve circ-camk4 included the glutamatergic synapse pathway, MAPK signaling pathway, and apoptosis signaling pathways, all of which are known to be involved in brain injury after I/R. Our results also demonstrate that levels of the human homolog to circ-camk4 (hsa-circ-camk4) are elevated in SH-SY5Y cells exposed to OGD/R treatment. Overexpression of hsa-circ-camk4 in SH-SY5Y cells significantly increased the rate of cell death after OGD/R, suggesting that circ-camk4 may play a key role in progression of cerebral I/R injury.",
+            "citation":"Zhang ZH, Wang YR, Li F, Liu XL, Zhang H, Zhu ZZ, Huang H, Xu XH. Circ-camk4 involved in cerebral ischemia/reperfusion induced neuronal injury. Sci Rep. 2020 Apr 24;10(1):7012. doi: 10.1038/s41598-020-63686-1. PMID: 32332879; PMCID: PMC7181679."
+         },
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32460794/",
+            "title":"CAMKK2-CAMK4 signaling regulates transferrin trafficking, turnover, and iron homeostasis",
+            "author":[
+               "Mohammad Golam Sabbir"
+            ],
+            "pm_id":"32460794",
+            "pmc_id":"PMC7251913",
+            "doi":"10.1186/s12964-020-00575-0",
+            "abstract":"Background:\n        \n      \n      Circulatory iron is a hazardous biometal. Therefore, iron is transported in a redox-safe state by a serum glycoprotein - transferrin (TF). Different organs acquire iron from the systemic circulation through a tightly regulated mechanism at the blood-tissue interface which involves receptor-mediated internalization of TF. Thus, abnormal TF trafficking may lead to iron dyshomeostasis associated with several diseases including neurodegeneration. Iron -induced toxicity can cause neuronal damage to iron-sensitive brain regions. Recently, it was discovered that CAMKK2, a calcium (Ca2+)/calmodulin-activated kinase, controls receptor-mediated TF trafficking in mouse tissues, specifically in the brain. The biological function of CAMKK2 is mediated through multiple downstream effectors. Both CAMKK2 and one of its downstream kinase, CAMK4, exhibit overlapping expression in mouse brain. The role of CAMK4 in vesicular transport has been reported and loss of CAMKK2 or CAMK4 leads to cognitive defects in mouse. Therefore, it was hypothesized that CAMKK2-CAMK4 signaling regulates receptor-mediated TF trafficking and iron homeostasis which may be responsible for the neuronal malfunction observed in CAMKK2- or CAMK4-deficient mice.",
+            "citation":"Sabbir MG. CAMKK2-CAMK4 signaling regulates transferrin trafficking, turnover, and iron homeostasis. Cell Commun Signal. 2020 May 27;18(1):80. doi: 10.1186/s12964-020-00575-0. PMID: 32460794; PMCID: PMC7251913."
+         },
+         {
+            "keyword":"CAMK4",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32862457/",
+            "title":"CaMK4-dependent phosphorylation of Akt/mTOR underlies Th17 excessive activation in experimental autoimmune prostatitis",
+            "author":[
+               "Chang-Sheng Zhan",
+               "Jia Chen",
+               "Jing Chen",
+               "Li-Gang Zhang",
+               "Yi Liu",
+               "He-Xi Du",
+               "Hui Wang",
+               "Mei-Juan Zheng",
+               "Zi-Qiang Yu",
+               "Xian-Guo Chen",
+               "Li Zhang",
+               "Chao-Zhao Liang"
+            ],
+            "pm_id":"32862457",
+            "pmc_id":"n/a",
+            "doi":"10.1096/fj.201902910RRR",
+            "abstract":"Chronic prostatitis and chronic pelvic pain syndrome (CP/CPPS) is a complicated syndrome characterized by genitourinary pain in the absence of bacterial infection. Th17 cell-driven autoimmunity has been proposed as a cause of CP/CPPS. However, the factors that promote Th17-driven autoimmunity in experimental autoimmune prostatitis (EAP) and the molecular mechanisms are still largely unknown. Here, we showed that Th17 cells were excessively activated, and blockade of IL-17A could effectively ameliorate various symptoms in EAP. Furthermore, we revealed that calcium/calmodulin-dependent kinase \u2163 (CaMK4), especially Thr196 p-CaMK4 was increased in the Th17 cells of the EAP group, which were activated by intracellular cytosolic Ca2+ . Pharmacologic and genetic inhibition of CaMK4 decreased the proportion of Th17 cells, and the protein and mRNA level of IL-17A, IL-22, and ROR\u03b3t. The phosphorylation of CaMK4 was dependent on the increase in intracellular cytosolic Ca2+ concentration in Th17 cells. A mechanistic study demonstrated that inhibition of CaMK4 reduced IL-17A production by decreasing the phosphorylation of Akt-mTOR, which was well accepted to positively regulate Th17 differentiation. Collectively, our results demonstrated that Ca2+ -CaMK4-Akt/mTOR-IL-17A axis inhibition may serve as a promising therapeutic strategy for CP/CPPS.",
+            "citation":"Zhan CS, Chen J, Chen J, Zhang LG, Liu Y, Du HX, Wang H, Zheng MJ, Yu ZQ, Chen XG, Zhang L, Liang CZ. CaMK4-dependent phosphorylation of Akt/mTOR underlies Th17 excessive activation in experimental autoimmune prostatitis. FASEB J. 2020 Oct;34(10):14006-14023. doi: 10.1096/fj.201902910RRR. Epub 2020 Aug 30. PMID: 32862457."
+         }
+      ],
+      [
+
+      ],
+      [
+
+      ],
+      [
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29358499/",
+            "title":"Peptide Transporter CstA Imports Pyruvate in Escherichia coli K-12",
+            "author":[
+               "Soonkyu Hwang",
+               "Donghui Choe",
+               "Minseob Yoo",
+               "Sanghyuk Cho",
+               "Sun Chang Kim",
+               "Suhyung Cho",
+               "Byung-Kwan Cho"
+            ],
+            "pm_id":"29358499",
+            "pmc_id":"PMC5847655",
+            "doi":"10.1128/JB.00771-17",
+            "abstract":"Pyruvate is an important intermediate of central carbon metabolism and connects a variety of metabolic pathways in Escherichia coli Although the intracellular pyruvate concentration is dynamically altered and tightly balanced during cell growth, the pyruvate transport system remains unclear. Here, we identified a pyruvate transporter in E. coli using high-throughput transposon sequencing. The transposon mutant library (a total of 5 \u00d7 105 mutants) was serially grown with a toxic pyruvate analog (3-fluoropyruvate [3FP]) to enrich for transposon mutants lacking pyruvate transport function. A total of 52 candidates were selected on the basis of a stringent enrichment level of transposon insertion frequency in response to 3FP treatment. Subsequently, their pyruvate transporter function was examined by conventional functional assays, such as those measuring growth inhibition by the toxic pyruvate analog and pyruvate uptake activity. The pyruvate transporter system comprises CstA and YbdD, which are known as a peptide transporter and a conserved protein, respectively, whose functions are associated with carbon starvation conditions. In addition to the presence of more than one endogenous pyruvate importer, it has been suggested that the E. coli genome encodes constitutive and inducible pyruvate transporters. Our results demonstrated that CstA and YbdD comprise the constitutive pyruvate transporter system in E. coli, which is consistent with the tentative genomic locus previously suggested and the functional relationship with the extracellular pyruvate sensing system. The identification of this pyruvate transporter system provides valuable genetic information for understanding the complex process of pyruvate metabolism in E. coliIMPORTANCE Pyruvate is an important metabolite as a central node in bacterial metabolism, and its intracellular levels are tightly regulated to maintain its functional roles in highly interconnected metabolic pathways. However, an understanding of the mechanism of how bacterial cells excrete and transport pyruvate remains elusive. Using high-throughput transposon sequencing followed by pyruvate uptake activity testing of the selected candidate genes, we found that a pyruvate transporter system comprising CstA and YbdD, currently annotated as a peptide transporter and a conserved protein, respectively, constitutively transports pyruvate. The identification of the physiological role of the pyruvate transporter system provides valuable genetic information for understanding the complex pyruvate metabolism in Escherichia coli.",
+            "citation":"Hwang S, Choe D, Yoo M, Cho S, Kim SC, Cho S, Cho BK. Peptide Transporter CstA Imports Pyruvate in Escherichia coli K-12. J Bacteriol. 2018 Mar 12;200(7):e00771-17. doi: 10.1128/JB.00771-17. PMID: 29358499; PMCID: PMC5847655."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/25793461/",
+            "title":"Conformational analysis and chemical reactivity of the multidomain sulfurtransferase, Staphylococcus aureus CstA",
+            "author":[
+               "Khadine A Higgins",
+               "Hui Peng",
+               "Justin L Luebke",
+               "Feng-Ming James Chang",
+               "David P Giedroc"
+            ],
+            "pm_id":"25793461",
+            "pmc_id":"n/a",
+            "doi":"10.1021/acs.biochem.5b00056",
+            "abstract":"The cst operon of the major human pathogen Staphylococcus aureus (S. aureus) is under the transcriptional control of CsoR-like sulfurtransferase repressor (CstR). Expression of this operon is induced by hydrogen sulfide, and two components of the cst operon, cstA and cstB, protect S. aureus from sulfide toxicity. CstA is a three-domain protein, and each domain harbors a single cysteine that is proposed to function in vectorial persulfide shuttling. We show here that single cysteine substitution mutants of CstA fail to protect S. aureus against sulfide toxicity in vivo. The N-terminal domain of CstA exhibits thiosulfate sulfurtransferase (TST; rhodanese) activity, and a Cys66 (34)S-persulfide is formed as a catalytic intermediate in both the presence and absence of the adjacent TusA-like domain using (34)S-SO3(2-) as a substrate. Cysteine persulfides can be trapped on both C66 in CstA(Rhod) and on C66 and C128 in CstA(Rhod-TusA) when incubated with thiosulfate, sodium tetrasulfide (Na2S4), and in situ persulfurated SufS. C66A substitution in CstA(Rhod-TusA) abolishes C128 S-sulfhydration, consistent with directional persulfide shuttling in CstA. Fully reduced CstA(Rhod-TusA) is predominately monomeric, and high resolution tandem mass spectrometry reveals that Cys66 and Cys128 can form a C66-C128 disulfide bond using a number of oxidants, which leads to a significant change in conformation. A competing intermolecular C128-C128' disulfide bond is also formed. Small-angle X-ray scattering measurements and gel filtration chromatography of reduced CstA(Rhod-TusA) reveal an elongated molecule (Rg \u2248 30 \u00c5, 21.6 kDa) where the two domains pack \"side-by-side\" that likely places Cys66 and Cys128 far apart. These studies are consistent with the low yield of C66-C128 cross-link as a mimic of a persulfide transfer intermediate in CstA, and small, but measurable persulfide transfer from Cys66 to Cys128 within the CstA(Rhod-TusA) with inorganic sulfur donors.",
+            "citation":"Higgins KA, Peng H, Luebke JL, Chang FM, Giedroc DP. Conformational analysis and chemical reactivity of the multidomain sulfurtransferase, Staphylococcus aureus CstA. Biochemistry. 2015 Apr 14;54(14):2385-98. doi: 10.1021/acs.biochem.5b00056. Epub 2015 Apr 1. PMID: 25793461."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32528874/",
+            "title":"Identification of Hub Genes Associated With Development of Head and Neck Squamous Cell Carcinoma by Integrated Bioinformatics Analysis",
+            "author":[
+               "Chia Ying Li",
+               "Jia-Hua Cai",
+               "Jeffrey J P Tsai",
+               "Charles C N Wang"
+            ],
+            "pm_id":"32528874",
+            "pmc_id":"PMC7258718",
+            "doi":"10.3389/fonc.2020.00681",
+            "abstract":"Improved insight into the molecular mechanisms of head and neck squamous cell carcinoma (HNSCC) is required to predict prognosis and develop a new therapeutic strategy for targeted genes. The aim of this study is to identify significant genes associated with HNSCC and to further analyze its prognostic significance. In our study, the cancer genome atlas (TCGA) HNSCC database and the gene expression profiles of GSE6631 from the Gene Expression Omnibus (GEO) were used to explore the differential co-expression genes in HNSCC compared with normal tissues. A total of 29 differential co-expression genes were screened out by Weighted Gene Co-expression Network Analysis (WGCNA) and differential gene expression analysis methods. As suggested in functional annotation analysis using the R clusterProfiler package, these genes were mainly enriched in epidermis development and differentiation (biological process), apical plasma membrane and cell-cell junction (cellular component), and enzyme inhibitor activity (molecular function). Furthermore, in a protein-protein interaction (PPI) network containing 21 nodes and 25 edges, the ten hub genes (S100A8, S100A9, IL1RN, CSTA, ANXA1, KRT4, TGM3, SCEL, PPL, and PSCA) were identified using the CytoHubba plugin of Cytoscape. The expression of the ten hub genes were all downregulated in HNSCC tissues compared with normal tissues. Based on survival analysis, the lower expression of CSTA was associated with worse overall survival (OS) in patients with HNSCC. Finally, the protein level of CSTA, which was validated by the Human Protein Atlas (HPA) database, was down-regulated consistently with mRNA levels in head and neck cancer samples. In summary, our study demonstrated that a survival-related gene is highly correlated with head and neck cancer development. Thus, CSTA may play important roles in the progression of head and neck cancer and serve as a potential biomarker for future diagnosis and treatment.",
+            "citation":"Li CY, Cai JH, Tsai JJP, Wang CCN. Identification of Hub Genes Associated With Development of Head and Neck Squamous Cell Carcinoma by Integrated Bioinformatics Analysis. Front Oncol. 2020 May 22;10:681. doi: 10.3389/fonc.2020.00681. PMID: 32528874; PMCID: PMC7258718."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29642180/",
+            "title":"Clinicopathological significance of cystatin A expression in progression of esophageal squamous cell carcinoma",
+            "author":[
+               "Daiki Shiba",
+               "Masayoshi Terayama",
+               "Kazuhiko Yamada",
+               "Teruki Hagiwara",
+               "Chinatsu Oyama",
+               "Miwa Tamura-Nakano",
+               "Toru Igari",
+               "Chizu Yokoi",
+               "Daisuke Soma",
+               "Kyoko Nohara",
+               "Satoshi Yamashita",
+               "Taeko Dohi",
+               "Yuki I Kawamura"
+            ],
+            "pm_id":"29642180",
+            "pmc_id":"PMC5908574",
+            "doi":"10.1097/MD.0000000000010357",
+            "abstract":"We previously conducted transcriptome analysis of a paired specimen of normal and esophageal squamous cell carcinoma (ESCC) tissues and found that mRNA expression of cystatin A (CSTA), a member of the cystatin superfamily, was perturbed in tumors compared with that in the background mucosa. However, little is known about the significance of CSTA expression in ESCC.The mRNA expression of CSTA was evaluated by qRT-PCR using 28 paired frozen samples of tumor and nontumor mucosae. The protein expression of CSTA was evaluated by the immunostaining of formalin-fixed, paraffin-embedded sections of ESCC samples from 59 patients who underwent surgery, and its relationship with clinical features was analyzed.The mRNA expression of CSTA was significantly decreased in ESCC compared with that in matched normal mucosa (P < .0001). The protein expression of CSTA was limited in stratum granulosum and stratum spinosum but not in stratum basal in normal esophageal mucosa. It was reduced in all ESCC tissue samples compared with normal tissues; however, CSTA expression levels in tumors showed considerable variation. Of the 59 samples, 20 did not express CSTA, whereas 39 clearly expressed it. The expression of CSTA in tumors was significantly associated with pT classification (deeper tumor invasions) (P = .0118) and advanced TNM stages (P = .0497). In CSTA-positive tumor samples, CSTA-expressing cancer cells often expressed Ki67, a proliferation marker, which was in sharp contrast to normal mucosa, where Ki67-expressing cells were limited to the basal layer and did not express CSTA. Furthermore, CSTA expression was observed in all 22 lymph node metastases analyzed.Relatively high levels of CSTA expression in tumors were correlated with tumor progression and advanced cancer stage, including lymph node metastasis.",
+            "citation":"Shiba D, Terayama M, Yamada K, Hagiwara T, Oyama C, Tamura-Nakano M, Igari T, Yokoi C, Soma D, Nohara K, Yamashita S, Dohi T, Kawamura YI. Clinicopathological significance of cystatin A expression in progression of esophageal squamous cell carcinoma. Medicine (Baltimore). 2018 Apr;97(15):e0357. doi: 10.1097/MD.0000000000010357. PMID: 29642180; PMCID: PMC5908574."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/12867454/",
+            "title":"CsrA regulates translation of the Escherichia coli carbon starvation gene, cstA, by blocking ribosome access to the cstA transcript",
+            "author":[
+               "Ashok K Dubey",
+               "Carol S Baker",
+               "Kazushi Suzuki",
+               "A Daniel Jones",
+               "Pallavi Pandit",
+               "Tony Romeo",
+               "Paul Babitzke"
+            ],
+            "pm_id":"12867454",
+            "pmc_id":"PMC165747",
+            "doi":"10.1128/jb.185.15.4450-4460.2003",
+            "abstract":"CsrA is a global regulator that binds to two sites in the glgCAP leader transcript, thereby blocking ribosome access to the glgC Shine-Dalgarno sequence. The upstream CsrA binding site (GCACACGGAU) was used to search the Escherichia coli genomic sequence for other genes that might be regulated by CsrA. cstA contained an exact match that overlapped its Shine-Dalgarno sequence. cstA was previously shown to be induced by carbon starvation and to encode a peptide transporter. Expression of a cstA'-'lacZ translational fusion in wild-type and csrA mutant strains was examined. Expression levels in the csrA mutant were approximately twofold higher when cells were grown in Luria broth (LB) and 5- to 10-fold higher when LB was supplemented with glucose. It was previously shown that cstA is regulated by the cyclic AMP (cAMP)-cAMP receptor protein complex and transcribed by Esigma(70). We investigated the influence of sigma(S) on cstA expression and found that a sigma(S) deficiency resulted in a threefold increase in cstA expression in wild-type and csrA mutant strains; however, CsrA-dependent regulation was retained. The mechanism of CsrA-mediated cstA regulation was also examined in vitro. Cross-linking studies demonstrated that CsrA is a homodimer. Gel mobility shift results showed that CsrA binds specifically to cstA RNA, while coupled-transcription-translation and toeprint studies demonstrated that CsrA regulates CstA synthesis by inhibiting ribosome binding to cstA transcripts. RNA footprint and boundary analyses revealed three or four CsrA binding sites, one of which overlaps the cstA Shine-Dalgarno sequence, as predicted. These results establish that CsrA regulates translation of cstA by sterically interfering with ribosome binding.",
+            "citation":"Dubey AK, Baker CS, Suzuki K, Jones AD, Pandit P, Romeo T, Babitzke P. CsrA regulates translation of the Escherichia coli carbon starvation gene, cstA, by blocking ribosome access to the cstA transcript. J Bacteriol. 2003 Aug;185(15):4450-60. doi: 10.1128/jb.185.15.4450-4460.2003. PMID: 12867454; PMCID: PMC165747."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/21412248/",
+            "title":"HLA-C, CSTA and DS12346 susceptibility alleles confer over 100-fold increased risk of developing psoriasis: evidence of gene interaction",
+            "author":[
+               "Yiannis Vasilopoulos",
+               "Gurdeep S Sagoo",
+               "Michael J Cork",
+               "Kevin Walters",
+               "Rachid Tazi-Ahnini"
+            ],
+            "pm_id":"21412248",
+            "pmc_id":"n/a",
+            "doi":"10.1038/jhg.2011.33",
+            "abstract":"Psoriasis is an inflammatory skin disorder that exhibits multifactorial mode of inheritance. In addition to the well-known susceptibility locus PSORS1 many other loci have been shown to be implicated in the genetic predisposition for disease. However, interactions between loci have not been thoroughly explored. Thus, we measured the effect of potential interaction between human leukocyte antigen (HLA)-C, CSTA and D1S236 at PSORS1, PSORS4 and PSORS5, respectively, in the development of psoriasis. Analysis of 130 Caucasian psoriatic families showed that the risk to an HLA-Cw6 +ve individual who carries two copies of the risk allele at both the CSTA and D1S2346 is 105 times the risk to an HLA-Cw6 +ve individual who does not carry any risk alleles at the CSTA or D1S2346. This is the first demonstration of an interaction between risk alleles in three susceptibility loci suggesting possible functional interaction between genes in these loci, which might explain the complexity of the pathogenesis of psoriasis.",
+            "citation":"Vasilopoulos Y, Sagoo GS, Cork MJ, Walters K, Tazi-Ahnini R. HLA-C, CSTA and DS12346 susceptibility alleles confer over 100-fold increased risk of developing psoriasis: evidence of gene interaction. J Hum Genet. 2011 Jun;56(6):423-7. doi: 10.1038/jhg.2011.33. Epub 2011 Mar 17. PMID: 21412248."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29581829/",
+            "title":"Cystatin A suppresses tumor cell growth through inhibiting epithelial to mesenchymal transition in human lung cancer",
+            "author":[
+               "Yunxia Ma",
+               "Yuan Chen",
+               "Yong Li",
+               "Katja Gr\u00fcn",
+               "Alexander Berndt",
+               "Zhongwei Zhou",
+               "Iver Petersen"
+            ],
+            "pm_id":"29581829",
+            "pmc_id":"PMC5865655",
+            "doi":"10.18632/oncotarget.23505",
+            "abstract":"Cystatin A (CSTA), belonging to type 1 cystatin super-family, is expressed primarily in epithelial and lymphoid tissues for protecting cells from proteolysis of cytoplasmic and cytoskeletal proteins by cathepsins B, H and L. CSTA acts as a tumor suppressor in esophageal cancer, however, its role in lung cancer has not yet been elucidated. Here we found that CSTA was down-regulated in all lung cancer cell lines compared to normal lung epithelial cells. CSTA was restored in most lung cancer cell lines after treatment with demethylation agent 5-aza-2-deoxycytidine and deacetylation agent Trichostatin. Bisulfite sequencing revealed that CSTA was partially methylated in the promoter and exon 1. In primary lung tumors, squamous cell carcinoma (SCC) significantly expressed more CSTA compared to adenocarcinoma (p<0.00001), and higher expression of CSTA was significantly associated with lower tumor grade (p<0.01). CSTA stable transfection reduced the activity of cathepsin B and inhibited the ability of colony formation, migration and invasion, and enhanced gemcitabine-induced apoptosis. CSTA overexpression resulted in reduced activity of ERK, p-38, and AKT. Additionally, CSTA overexpression led to a mesenchymal to epithelial transition (MET) and prevented the TGF-\u03b21-induced epithelial to mesenchymal transition (EMT) through inhibiting the ERK/MAPK pathway. In conclusion, our date indicate 1) epigenetic regulation is associated with CSTA gene silencing; 2) CSTA exerts tumor suppressive function through inhibiting MAPK and AKT pathways; 3) Overexpression of CSTA leads to MET and prevents TGF-\u03b21-induced EMT by modulating the MAPK pathway; 4) CSTA may be a potential biomarker for lung SCC and tumor differentiation.",
+            "citation":"Ma Y, Chen Y, Li Y, Gr\u00fcn K, Berndt A, Zhou Z, Petersen I. Cystatin A suppresses tumor cell growth through inhibiting epithelial to mesenchymal transition in human lung cancer. Oncotarget. 2017 Dec 20;9(18):14084-14098. doi: 10.18632/oncotarget.23505. PMID: 29581829; PMCID: PMC5865655."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/22820839/",
+            "title":"A Brucella abortus cstA mutant is defective for association with endoplasmic reticulum exit sites and displays altered trafficking in HeLa cells",
+            "author":[
+               "Marie de Barsy",
+               "Aur\u00e9lie Mirabella",
+               "Jean-Jacques Letesson",
+               "Xavier De Bolle"
+            ],
+            "pm_id":"22820839",
+            "pmc_id":"n/a",
+            "doi":"10.1099/mic.0.060509-0",
+            "abstract":"Members of the genus Brucella are facultative intracellular pathogenic bacteria able to control maturation of their vacuoles. In several cell types, Brucella is able to reach a proliferation compartment derived from the endoplasmic reticulum (ER). Since ER exit site (ERES) functions are required for Brucella proliferation, we performed a yeast two-hybrid screen between human ERES-associated proteins and the predicted brucella proteome. This screening led to the identification of CstA, a conserved protein that specifically interacts with Sec24A, a component of the ERES. We found that a tagged CstA is secreted in Brucella abortus culture medium. This secretion is independent of the type IV secretion system VirB and the flagellum, suggesting that CstA is secreted through another system. We also discovered that a B. abortus cstA mutant is impaired for its association with the Sec23 ERES marker. The B. abortus cstA mutant displayed peculiar trafficking, with reduced association with LAMP1 and Calnexin 12 h post-infection in HeLa cells. However, its intracellular proliferation kinetics was not affected. The data reported here suggest that CstA could be directly or indirectly involved in the control of B. abortus intracellular trafficking in HeLa cells.",
+            "citation":"de Barsy M, Mirabella A, Letesson JJ, De Bolle X. A Brucella abortus cstA mutant is defective for association with endoplasmic reticulum exit sites and displays altered trafficking in HeLa cells. Microbiology (Reading). 2012 Oct;158(Pt 10):2610-2618. doi: 10.1099/mic.0.060509-0. Epub 2012 Jul 19. PMID: 22820839."
+         }
+      ],
+      [
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29358499/",
+            "title":"Peptide Transporter CstA Imports Pyruvate in Escherichia coli K-12",
+            "author":[
+               "Soonkyu Hwang",
+               "Donghui Choe",
+               "Minseob Yoo",
+               "Sanghyuk Cho",
+               "Sun Chang Kim",
+               "Suhyung Cho",
+               "Byung-Kwan Cho"
+            ],
+            "pm_id":"29358499",
+            "pmc_id":"PMC5847655",
+            "doi":"10.1128/JB.00771-17",
+            "abstract":"Pyruvate is an important intermediate of central carbon metabolism and connects a variety of metabolic pathways in Escherichia coli Although the intracellular pyruvate concentration is dynamically altered and tightly balanced during cell growth, the pyruvate transport system remains unclear. Here, we identified a pyruvate transporter in E. coli using high-throughput transposon sequencing. The transposon mutant library (a total of 5 \u00d7 105 mutants) was serially grown with a toxic pyruvate analog (3-fluoropyruvate [3FP]) to enrich for transposon mutants lacking pyruvate transport function. A total of 52 candidates were selected on the basis of a stringent enrichment level of transposon insertion frequency in response to 3FP treatment. Subsequently, their pyruvate transporter function was examined by conventional functional assays, such as those measuring growth inhibition by the toxic pyruvate analog and pyruvate uptake activity. The pyruvate transporter system comprises CstA and YbdD, which are known as a peptide transporter and a conserved protein, respectively, whose functions are associated with carbon starvation conditions. In addition to the presence of more than one endogenous pyruvate importer, it has been suggested that the E. coli genome encodes constitutive and inducible pyruvate transporters. Our results demonstrated that CstA and YbdD comprise the constitutive pyruvate transporter system in E. coli, which is consistent with the tentative genomic locus previously suggested and the functional relationship with the extracellular pyruvate sensing system. The identification of this pyruvate transporter system provides valuable genetic information for understanding the complex process of pyruvate metabolism in E. coliIMPORTANCE Pyruvate is an important metabolite as a central node in bacterial metabolism, and its intracellular levels are tightly regulated to maintain its functional roles in highly interconnected metabolic pathways. However, an understanding of the mechanism of how bacterial cells excrete and transport pyruvate remains elusive. Using high-throughput transposon sequencing followed by pyruvate uptake activity testing of the selected candidate genes, we found that a pyruvate transporter system comprising CstA and YbdD, currently annotated as a peptide transporter and a conserved protein, respectively, constitutively transports pyruvate. The identification of the physiological role of the pyruvate transporter system provides valuable genetic information for understanding the complex pyruvate metabolism in Escherichia coli.",
+            "citation":"Hwang S, Choe D, Yoo M, Cho S, Kim SC, Cho S, Cho BK. Peptide Transporter CstA Imports Pyruvate in Escherichia coli K-12. J Bacteriol. 2018 Mar 12;200(7):e00771-17. doi: 10.1128/JB.00771-17. PMID: 29358499; PMCID: PMC5847655."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/25793461/",
+            "title":"Conformational analysis and chemical reactivity of the multidomain sulfurtransferase, Staphylococcus aureus CstA",
+            "author":[
+               "Khadine A Higgins",
+               "Hui Peng",
+               "Justin L Luebke",
+               "Feng-Ming James Chang",
+               "David P Giedroc"
+            ],
+            "pm_id":"25793461",
+            "pmc_id":"n/a",
+            "doi":"10.1021/acs.biochem.5b00056",
+            "abstract":"The cst operon of the major human pathogen Staphylococcus aureus (S. aureus) is under the transcriptional control of CsoR-like sulfurtransferase repressor (CstR). Expression of this operon is induced by hydrogen sulfide, and two components of the cst operon, cstA and cstB, protect S. aureus from sulfide toxicity. CstA is a three-domain protein, and each domain harbors a single cysteine that is proposed to function in vectorial persulfide shuttling. We show here that single cysteine substitution mutants of CstA fail to protect S. aureus against sulfide toxicity in vivo. The N-terminal domain of CstA exhibits thiosulfate sulfurtransferase (TST; rhodanese) activity, and a Cys66 (34)S-persulfide is formed as a catalytic intermediate in both the presence and absence of the adjacent TusA-like domain using (34)S-SO3(2-) as a substrate. Cysteine persulfides can be trapped on both C66 in CstA(Rhod) and on C66 and C128 in CstA(Rhod-TusA) when incubated with thiosulfate, sodium tetrasulfide (Na2S4), and in situ persulfurated SufS. C66A substitution in CstA(Rhod-TusA) abolishes C128 S-sulfhydration, consistent with directional persulfide shuttling in CstA. Fully reduced CstA(Rhod-TusA) is predominately monomeric, and high resolution tandem mass spectrometry reveals that Cys66 and Cys128 can form a C66-C128 disulfide bond using a number of oxidants, which leads to a significant change in conformation. A competing intermolecular C128-C128' disulfide bond is also formed. Small-angle X-ray scattering measurements and gel filtration chromatography of reduced CstA(Rhod-TusA) reveal an elongated molecule (Rg \u2248 30 \u00c5, 21.6 kDa) where the two domains pack \"side-by-side\" that likely places Cys66 and Cys128 far apart. These studies are consistent with the low yield of C66-C128 cross-link as a mimic of a persulfide transfer intermediate in CstA, and small, but measurable persulfide transfer from Cys66 to Cys128 within the CstA(Rhod-TusA) with inorganic sulfur donors.",
+            "citation":"Higgins KA, Peng H, Luebke JL, Chang FM, Giedroc DP. Conformational analysis and chemical reactivity of the multidomain sulfurtransferase, Staphylococcus aureus CstA. Biochemistry. 2015 Apr 14;54(14):2385-98. doi: 10.1021/acs.biochem.5b00056. Epub 2015 Apr 1. PMID: 25793461."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32528874/",
+            "title":"Identification of Hub Genes Associated With Development of Head and Neck Squamous Cell Carcinoma by Integrated Bioinformatics Analysis",
+            "author":[
+               "Chia Ying Li",
+               "Jia-Hua Cai",
+               "Jeffrey J P Tsai",
+               "Charles C N Wang"
+            ],
+            "pm_id":"32528874",
+            "pmc_id":"PMC7258718",
+            "doi":"10.3389/fonc.2020.00681",
+            "abstract":"Improved insight into the molecular mechanisms of head and neck squamous cell carcinoma (HNSCC) is required to predict prognosis and develop a new therapeutic strategy for targeted genes. The aim of this study is to identify significant genes associated with HNSCC and to further analyze its prognostic significance. In our study, the cancer genome atlas (TCGA) HNSCC database and the gene expression profiles of GSE6631 from the Gene Expression Omnibus (GEO) were used to explore the differential co-expression genes in HNSCC compared with normal tissues. A total of 29 differential co-expression genes were screened out by Weighted Gene Co-expression Network Analysis (WGCNA) and differential gene expression analysis methods. As suggested in functional annotation analysis using the R clusterProfiler package, these genes were mainly enriched in epidermis development and differentiation (biological process), apical plasma membrane and cell-cell junction (cellular component), and enzyme inhibitor activity (molecular function). Furthermore, in a protein-protein interaction (PPI) network containing 21 nodes and 25 edges, the ten hub genes (S100A8, S100A9, IL1RN, CSTA, ANXA1, KRT4, TGM3, SCEL, PPL, and PSCA) were identified using the CytoHubba plugin of Cytoscape. The expression of the ten hub genes were all downregulated in HNSCC tissues compared with normal tissues. Based on survival analysis, the lower expression of CSTA was associated with worse overall survival (OS) in patients with HNSCC. Finally, the protein level of CSTA, which was validated by the Human Protein Atlas (HPA) database, was down-regulated consistently with mRNA levels in head and neck cancer samples. In summary, our study demonstrated that a survival-related gene is highly correlated with head and neck cancer development. Thus, CSTA may play important roles in the progression of head and neck cancer and serve as a potential biomarker for future diagnosis and treatment.",
+            "citation":"Li CY, Cai JH, Tsai JJP, Wang CCN. Identification of Hub Genes Associated With Development of Head and Neck Squamous Cell Carcinoma by Integrated Bioinformatics Analysis. Front Oncol. 2020 May 22;10:681. doi: 10.3389/fonc.2020.00681. PMID: 32528874; PMCID: PMC7258718."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29642180/",
+            "title":"Clinicopathological significance of cystatin A expression in progression of esophageal squamous cell carcinoma",
+            "author":[
+               "Daiki Shiba",
+               "Masayoshi Terayama",
+               "Kazuhiko Yamada",
+               "Teruki Hagiwara",
+               "Chinatsu Oyama",
+               "Miwa Tamura-Nakano",
+               "Toru Igari",
+               "Chizu Yokoi",
+               "Daisuke Soma",
+               "Kyoko Nohara",
+               "Satoshi Yamashita",
+               "Taeko Dohi",
+               "Yuki I Kawamura"
+            ],
+            "pm_id":"29642180",
+            "pmc_id":"PMC5908574",
+            "doi":"10.1097/MD.0000000000010357",
+            "abstract":"We previously conducted transcriptome analysis of a paired specimen of normal and esophageal squamous cell carcinoma (ESCC) tissues and found that mRNA expression of cystatin A (CSTA), a member of the cystatin superfamily, was perturbed in tumors compared with that in the background mucosa. However, little is known about the significance of CSTA expression in ESCC.The mRNA expression of CSTA was evaluated by qRT-PCR using 28 paired frozen samples of tumor and nontumor mucosae. The protein expression of CSTA was evaluated by the immunostaining of formalin-fixed, paraffin-embedded sections of ESCC samples from 59 patients who underwent surgery, and its relationship with clinical features was analyzed.The mRNA expression of CSTA was significantly decreased in ESCC compared with that in matched normal mucosa (P < .0001). The protein expression of CSTA was limited in stratum granulosum and stratum spinosum but not in stratum basal in normal esophageal mucosa. It was reduced in all ESCC tissue samples compared with normal tissues; however, CSTA expression levels in tumors showed considerable variation. Of the 59 samples, 20 did not express CSTA, whereas 39 clearly expressed it. The expression of CSTA in tumors was significantly associated with pT classification (deeper tumor invasions) (P = .0118) and advanced TNM stages (P = .0497). In CSTA-positive tumor samples, CSTA-expressing cancer cells often expressed Ki67, a proliferation marker, which was in sharp contrast to normal mucosa, where Ki67-expressing cells were limited to the basal layer and did not express CSTA. Furthermore, CSTA expression was observed in all 22 lymph node metastases analyzed.Relatively high levels of CSTA expression in tumors were correlated with tumor progression and advanced cancer stage, including lymph node metastasis.",
+            "citation":"Shiba D, Terayama M, Yamada K, Hagiwara T, Oyama C, Tamura-Nakano M, Igari T, Yokoi C, Soma D, Nohara K, Yamashita S, Dohi T, Kawamura YI. Clinicopathological significance of cystatin A expression in progression of esophageal squamous cell carcinoma. Medicine (Baltimore). 2018 Apr;97(15):e0357. doi: 10.1097/MD.0000000000010357. PMID: 29642180; PMCID: PMC5908574."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/12867454/",
+            "title":"CsrA regulates translation of the Escherichia coli carbon starvation gene, cstA, by blocking ribosome access to the cstA transcript",
+            "author":[
+               "Ashok K Dubey",
+               "Carol S Baker",
+               "Kazushi Suzuki",
+               "A Daniel Jones",
+               "Pallavi Pandit",
+               "Tony Romeo",
+               "Paul Babitzke"
+            ],
+            "pm_id":"12867454",
+            "pmc_id":"PMC165747",
+            "doi":"10.1128/jb.185.15.4450-4460.2003",
+            "abstract":"CsrA is a global regulator that binds to two sites in the glgCAP leader transcript, thereby blocking ribosome access to the glgC Shine-Dalgarno sequence. The upstream CsrA binding site (GCACACGGAU) was used to search the Escherichia coli genomic sequence for other genes that might be regulated by CsrA. cstA contained an exact match that overlapped its Shine-Dalgarno sequence. cstA was previously shown to be induced by carbon starvation and to encode a peptide transporter. Expression of a cstA'-'lacZ translational fusion in wild-type and csrA mutant strains was examined. Expression levels in the csrA mutant were approximately twofold higher when cells were grown in Luria broth (LB) and 5- to 10-fold higher when LB was supplemented with glucose. It was previously shown that cstA is regulated by the cyclic AMP (cAMP)-cAMP receptor protein complex and transcribed by Esigma(70). We investigated the influence of sigma(S) on cstA expression and found that a sigma(S) deficiency resulted in a threefold increase in cstA expression in wild-type and csrA mutant strains; however, CsrA-dependent regulation was retained. The mechanism of CsrA-mediated cstA regulation was also examined in vitro. Cross-linking studies demonstrated that CsrA is a homodimer. Gel mobility shift results showed that CsrA binds specifically to cstA RNA, while coupled-transcription-translation and toeprint studies demonstrated that CsrA regulates CstA synthesis by inhibiting ribosome binding to cstA transcripts. RNA footprint and boundary analyses revealed three or four CsrA binding sites, one of which overlaps the cstA Shine-Dalgarno sequence, as predicted. These results establish that CsrA regulates translation of cstA by sterically interfering with ribosome binding.",
+            "citation":"Dubey AK, Baker CS, Suzuki K, Jones AD, Pandit P, Romeo T, Babitzke P. CsrA regulates translation of the Escherichia coli carbon starvation gene, cstA, by blocking ribosome access to the cstA transcript. J Bacteriol. 2003 Aug;185(15):4450-60. doi: 10.1128/jb.185.15.4450-4460.2003. PMID: 12867454; PMCID: PMC165747."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/21412248/",
+            "title":"HLA-C, CSTA and DS12346 susceptibility alleles confer over 100-fold increased risk of developing psoriasis: evidence of gene interaction",
+            "author":[
+               "Yiannis Vasilopoulos",
+               "Gurdeep S Sagoo",
+               "Michael J Cork",
+               "Kevin Walters",
+               "Rachid Tazi-Ahnini"
+            ],
+            "pm_id":"21412248",
+            "pmc_id":"n/a",
+            "doi":"10.1038/jhg.2011.33",
+            "abstract":"Psoriasis is an inflammatory skin disorder that exhibits multifactorial mode of inheritance. In addition to the well-known susceptibility locus PSORS1 many other loci have been shown to be implicated in the genetic predisposition for disease. However, interactions between loci have not been thoroughly explored. Thus, we measured the effect of potential interaction between human leukocyte antigen (HLA)-C, CSTA and D1S236 at PSORS1, PSORS4 and PSORS5, respectively, in the development of psoriasis. Analysis of 130 Caucasian psoriatic families showed that the risk to an HLA-Cw6 +ve individual who carries two copies of the risk allele at both the CSTA and D1S2346 is 105 times the risk to an HLA-Cw6 +ve individual who does not carry any risk alleles at the CSTA or D1S2346. This is the first demonstration of an interaction between risk alleles in three susceptibility loci suggesting possible functional interaction between genes in these loci, which might explain the complexity of the pathogenesis of psoriasis.",
+            "citation":"Vasilopoulos Y, Sagoo GS, Cork MJ, Walters K, Tazi-Ahnini R. HLA-C, CSTA and DS12346 susceptibility alleles confer over 100-fold increased risk of developing psoriasis: evidence of gene interaction. J Hum Genet. 2011 Jun;56(6):423-7. doi: 10.1038/jhg.2011.33. Epub 2011 Mar 17. PMID: 21412248."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/29581829/",
+            "title":"Cystatin A suppresses tumor cell growth through inhibiting epithelial to mesenchymal transition in human lung cancer",
+            "author":[
+               "Yunxia Ma",
+               "Yuan Chen",
+               "Yong Li",
+               "Katja Gr\u00fcn",
+               "Alexander Berndt",
+               "Zhongwei Zhou",
+               "Iver Petersen"
+            ],
+            "pm_id":"29581829",
+            "pmc_id":"PMC5865655",
+            "doi":"10.18632/oncotarget.23505",
+            "abstract":"Cystatin A (CSTA), belonging to type 1 cystatin super-family, is expressed primarily in epithelial and lymphoid tissues for protecting cells from proteolysis of cytoplasmic and cytoskeletal proteins by cathepsins B, H and L. CSTA acts as a tumor suppressor in esophageal cancer, however, its role in lung cancer has not yet been elucidated. Here we found that CSTA was down-regulated in all lung cancer cell lines compared to normal lung epithelial cells. CSTA was restored in most lung cancer cell lines after treatment with demethylation agent 5-aza-2-deoxycytidine and deacetylation agent Trichostatin. Bisulfite sequencing revealed that CSTA was partially methylated in the promoter and exon 1. In primary lung tumors, squamous cell carcinoma (SCC) significantly expressed more CSTA compared to adenocarcinoma (p<0.00001), and higher expression of CSTA was significantly associated with lower tumor grade (p<0.01). CSTA stable transfection reduced the activity of cathepsin B and inhibited the ability of colony formation, migration and invasion, and enhanced gemcitabine-induced apoptosis. CSTA overexpression resulted in reduced activity of ERK, p-38, and AKT. Additionally, CSTA overexpression led to a mesenchymal to epithelial transition (MET) and prevented the TGF-\u03b21-induced epithelial to mesenchymal transition (EMT) through inhibiting the ERK/MAPK pathway. In conclusion, our date indicate 1) epigenetic regulation is associated with CSTA gene silencing; 2) CSTA exerts tumor suppressive function through inhibiting MAPK and AKT pathways; 3) Overexpression of CSTA leads to MET and prevents TGF-\u03b21-induced EMT by modulating the MAPK pathway; 4) CSTA may be a potential biomarker for lung SCC and tumor differentiation.",
+            "citation":"Ma Y, Chen Y, Li Y, Gr\u00fcn K, Berndt A, Zhou Z, Petersen I. Cystatin A suppresses tumor cell growth through inhibiting epithelial to mesenchymal transition in human lung cancer. Oncotarget. 2017 Dec 20;9(18):14084-14098. doi: 10.18632/oncotarget.23505. PMID: 29581829; PMCID: PMC5865655."
+         },
+         {
+            "keyword":"CSTA",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/22820839/",
+            "title":"A Brucella abortus cstA mutant is defective for association with endoplasmic reticulum exit sites and displays altered trafficking in HeLa cells",
+            "author":[
+               "Marie de Barsy",
+               "Aur\u00e9lie Mirabella",
+               "Jean-Jacques Letesson",
+               "Xavier De Bolle"
+            ],
+            "pm_id":"22820839",
+            "pmc_id":"n/a",
+            "doi":"10.1099/mic.0.060509-0",
+            "abstract":"Members of the genus Brucella are facultative intracellular pathogenic bacteria able to control maturation of their vacuoles. In several cell types, Brucella is able to reach a proliferation compartment derived from the endoplasmic reticulum (ER). Since ER exit site (ERES) functions are required for Brucella proliferation, we performed a yeast two-hybrid screen between human ERES-associated proteins and the predicted brucella proteome. This screening led to the identification of CstA, a conserved protein that specifically interacts with Sec24A, a component of the ERES. We found that a tagged CstA is secreted in Brucella abortus culture medium. This secretion is independent of the type IV secretion system VirB and the flagellum, suggesting that CstA is secreted through another system. We also discovered that a B. abortus cstA mutant is impaired for its association with the Sec23 ERES marker. The B. abortus cstA mutant displayed peculiar trafficking, with reduced association with LAMP1 and Calnexin 12 h post-infection in HeLa cells. However, its intracellular proliferation kinetics was not affected. The data reported here suggest that CstA could be directly or indirectly involved in the control of B. abortus intracellular trafficking in HeLa cells.",
+            "citation":"de Barsy M, Mirabella A, Letesson JJ, De Bolle X. A Brucella abortus cstA mutant is defective for association with endoplasmic reticulum exit sites and displays altered trafficking in HeLa cells. Microbiology (Reading). 2012 Oct;158(Pt 10):2610-2618. doi: 10.1099/mic.0.060509-0. Epub 2012 Jul 19. PMID: 22820839."
+         }
+      ],
+      [
+         {
+            "keyword":"GNAQ",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/31527657/",
+            "title":"Recurrent GNAQ mutation encoding T96S in natural killer/T cell lymphoma",
+            "author":[
+               "Zhaoming Li",
+               "Xudong Zhang",
+               "Weili Xue",
+               "Yanjie Zhang",
+               "Chaoping Li",
+               "Yue Song",
+               "Mei Mei",
+               "Lisha Lu",
+               "Yingjun Wang",
+               "Zhiyuan Zhou",
+               "Mengyuan Jin",
+               "Yangyang Bian",
+               "Lei Zhang",
+               "Xinhua Wang",
+               "Ling Li",
+               "Xin Li",
+               "Xiaorui Fu",
+               "Zhenchang Sun",
+               "Jingjing Wu",
+               "Feifei Nan",
+               "Yu Chang",
+               "Jiaqin Yan",
+               "Hui Yu",
+               "Xiaoyan Feng",
+               "Guannan Wang",
+               "Dandan Zhang",
+               "Xuefei Fu",
+               "Yuan Zhang",
+               "Ken H Young",
+               "Wencai Li",
+               "Mingzhi Zhang"
+            ],
+            "pm_id":"31527657",
+            "pmc_id":"PMC6746819",
+            "doi":"10.1038/s41467-019-12032-9",
+            "abstract":"Natural killer/T cell lymphoma (NKTCL) is a rare and aggressive malignancy with a higher prevalence in Asia and South America. However, the molecular genetic mechanisms underlying NKTCL remain unclear. Here, we identify somatic mutations of GNAQ (encoding the T96S alteration of G\u03b1q protein) in 8.7% (11/127) of NKTCL patients, through whole-exome/targeted deep sequencing. Using conditional knockout mice (Ncr1-Cre-Gnaqfl/fl), we demonstrate that G\u03b1q deficiency leads to enhanced NK cell survival. We also find that G\u03b1q suppresses tumor growth of NKTCL via inhibition of the AKT and MAPK signaling pathways. Moreover, the G\u03b1q T96S mutant may act in a dominant negative manner to promote tumor growth in NKTCL. Clinically, patients with GNAQ T96S mutations have inferior survival. Taken together, we identify recurrent somatic GNAQ T96S mutations that may contribute to the pathogenesis of NKTCL. Our work thus has implications for refining our understanding of the genetic mechanisms of NKTCL and for the development of therapies.",
+            "citation":"Li Z, Zhang X, Xue W, Zhang Y, Li C, Song Y, Mei M, Lu L, Wang Y, Zhou Z, Jin M, Bian Y, Zhang L, Wang X, Li L, Li X, Fu X, Sun Z, Wu J, Nan F, Chang Y, Yan J, Yu H, Feng X, Wang G, Zhang D, Fu X, Zhang Y, Young KH, Li W, Zhang M. Recurrent GNAQ mutation encoding T96S in natural killer/T cell lymphoma. Nat Commun. 2019 Sep 16;10(1):4209. doi: 10.1038/s41467-019-12032-9. PMID: 31527657; PMCID: PMC6746819."
+         },
+         {
+            "keyword":"GNAQ",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/28126187/",
+            "title":"Sturge-Weber Syndrome: A Review",
+            "author":[
+               "E Higueros",
+               "E Roe",
+               "E Granell",
+               "E Baselga"
+            ],
+            "pm_id":"28126187",
+            "pmc_id":"n/a",
+            "doi":"10.1016/j.ad.2016.09.022",
+            "abstract":"Sturge-Weber syndrome is a sporadic congenital neurocutaneous disorder caused by a somatic activating mutation in GNAQ; it affects 1 in every 20,000 to 50,000 newborns. It is characterized by a facial Port-wine stain, leptomeningeal angiomatosis, and glaucoma. Seizures are the most common neurological manifestation and typically present in the first months of life. Glaucoma may be present at birth or develop later. Neuroimaging studies show leptomeningeal angiomatosis, supporting diagnosis. Standard treatment for Sturge-Weber syndrome includes laser treatment for the Port-wine stain, anticonvulsants, and medical or surgical treatment for the glaucoma. Prognosis depends on the extent of leptomeningeal involvement and the severity of the glaucoma.",
+            "citation":"Higueros E, Roe E, Granell E, Baselga E. Sturge-Weber Syndrome: A Review. Actas Dermosifiliogr. 2017 Jun;108(5):407-417. English, Spanish. doi: 10.1016/j.ad.2016.09.022. Epub 2017 Jan 23. PMID: 28126187."
+         },
+         {
+            "keyword":"GNAQ",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/28486107/",
+            "title":"RasGRP3 Mediates MAPK Pathway Activation in GNAQ Mutant Uveal Melanoma",
+            "author":[
+               "Xu Chen",
+               "Qiuxia Wu",
+               "Philippe Depeille",
+               "Peirong Chen",
+               "Sophie Thornton",
+               "Helen Kalirai",
+               "Sarah E Coupland",
+               "Jeroen P Roose",
+               "Boris C Bastian"
+            ],
+            "pm_id":"28486107",
+            "pmc_id":"PMC5499527",
+            "doi":"10.1016/j.ccell.2017.04.002",
+            "abstract":"Constitutive activation of G\u03b1q signaling by mutations in GNAQ or GNA11 occurs in over 80% of uveal melanomas (UMs) and activates MAPK. Protein kinase C (PKC) has been implicated as a link, but the mechanistic details remained unclear. We identified PKC \u03b4 and \u025b as required and sufficient to activate MAPK in GNAQ mutant melanomas. MAPK activation depends on Ras and is caused by RasGRP3, which is significantly and selectively overexpressed in response to GNAQ/11 mutation in UM. RasGRP3 activation occurs via PKC \u03b4- and \u025b-dependent phosphorylation and PKC-independent, DAG-mediated membrane recruitment, possibly explaining the limited effect of PKC inhibitors to durably suppress MAPK in UM. The findings nominate RasGRP3 as a therapeutic target for cancers driven by oncogenic GNAQ/11.",
+            "citation":"Chen X, Wu Q, Depeille P, Chen P, Thornton S, Kalirai H, Coupland SE, Roose JP, Bastian BC. RasGRP3 Mediates MAPK Pathway Activation in GNAQ Mutant Uveal Melanoma. Cancer Cell. 2017 May 8;31(5):685-696.e6. doi: 10.1016/j.ccell.2017.04.002. PMID: 28486107; PMCID: PMC5499527."
+         },
+         {
+            "keyword":"GNAQ",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/31336681/",
+            "title":"GNAQ Q209R Mutations Are Highly Specific for Circumscribed Choroidal Hemangioma",
+            "author":[
+               "Claudia Helga Dorothee Le Guin",
+               "Klaus Alfred Metz",
+               "Stefan Horst Kreis",
+               "Nikolaos Emmanouel Bechrakis",
+               "Norbert Bornfeld",
+               "Michael Zeschnigk",
+               "Dietmar Rudolf Lohmann"
+            ],
+            "pm_id":"31336681",
+            "pmc_id":"PMC6679048",
+            "doi":"10.3390/cancers11071031",
+            "abstract":"Several tumors, including uveal melanoma, show somatic mutations of GNAQ/GNA11. Circumscribed choroidal hemangioma is a benign tumor that becomes symptomatic in adulthood. In some patients, morphologic examination of biopsies is required for differential diagnosis between amelanotic choroidal melanoma and circumscribed choroidal hemangioma. Here, we report the results of GNAQ/GNA11 mutation analysis in samples from circumscribed choroidal hemangioma. Deep amplicon sequencing (Illumina MiSeq, San Diego, CA, USA) of positions R183 and Q209 of GNAQ and GNA11 in tissue samples from 33 patients with histologically diagnosed circumscribed choroidal hemangioma. All patients underwent biopsy or enucleation at our clinic between 2008 and 2018. To enable detection of variant alleles at low fractions, read depth exceeded 15,000-fold. DNA for genetic analysis was prepared from either snap-frozen (n = 22) or FFPE (n = 11) tissue samples. Samples from 28/33 patients (85%) showed a somatic missense mutation of GNAQ (c.626 A > G) predicted to result in p.Q209R. Variant allele fraction was variable (range 2.3% to 28%). Variants of GNAQ resulting in p.Q209 are characteristic for circumscribed choroidal hemangiomas. It appears that the GNAQ mutation spectrum in this tumor is narrow, possibly restricted to p.Q209R. Moreover, the spectrum is distinct from that of uveal melanoma, in which alterations resulting in p.Q209R are very rare.",
+            "citation":"Le Guin CHD, Metz KA, Kreis SH, Bechrakis NE, Bornfeld N, Zeschnigk M, Lohmann DR. GNAQ Q209R Mutations Are Highly Specific for Circumscribed Choroidal Hemangioma. Cancers (Basel). 2019 Jul 22;11(7):1031. doi: 10.3390/cancers11071031. PMID: 31336681; PMCID: PMC6679048."
+         }
+      ],
+      [
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/30001734/",
+            "title":"Exosomal miR-9 inhibits angiogenesis by targeting MDK and regulating PDK/AKT pathway in nasopharyngeal carcinoma",
+            "author":[
+               "Juan Lu",
+               "Qi-Hui Liu",
+               "Fan Wang",
+               "Jia-Jie Tan",
+               "Yue-Qin Deng",
+               "Xiao-Hong Peng",
+               "Xiong Liu",
+               "Bao Zhang",
+               "Xia Xu",
+               "Xiang-Ping Li"
+            ],
+            "pm_id":"30001734",
+            "pmc_id":"PMC6044044",
+            "doi":"10.1186/s13046-018-0814-3",
+            "abstract":"Background:\n        \n      \n      Exosomes are small vesicles containing a wide range of functional proteins, mRNA and miRNA. Exosomal miRNAs from cancer cells play crucial roles in mediating cell-cell communication and tumor-microenvironment cross talk, specifically in enabling metastasis and promoting angiogenesis. We focused on miR-9 that was identified as a tumor suppressor previously in nasopharyngeal carcinoma (NPC) tumorigenesis.",
+            "citation":"Lu J, Liu QH, Wang F, Tan JJ, Deng YQ, Peng XH, Liu X, Zhang B, Xu X, Li XP. Exosomal miR-9 inhibits angiogenesis by targeting MDK and regulating PDK/AKT pathway in nasopharyngeal carcinoma. J Exp Clin Cancer Res. 2018 Jul 13;37(1):147. doi: 10.1186/s13046-018-0814-3. PMID: 30001734; PMCID: PMC6044044."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/31801970/",
+            "title":"Midkine (MDK) growth factor: a key player in cancer progression and a promising therapeutic target",
+            "author":[
+               "Panagiota S Filippou",
+               "George S Karagiannis",
+               "Anastasia Constantinidou"
+            ],
+            "pm_id":"31801970",
+            "pmc_id":"n/a",
+            "doi":"10.1038/s41388-019-1124-8",
+            "abstract":"Midkine is a heparin-binding growth factor, originally reported as the product of a retinoic acid-responsive gene during embryogenesis, but currently viewed as a multifaceted factor contributing to both normal tissue homeostasis and disease development. Midkine is abnormally expressed at high levels in various human malignancies and acts as a mediator for the acquisition of critical hallmarks of cancer, including cell growth, survival, metastasis, migration, and angiogenesis. Several studies have investigated the role of midkine as a cancer biomarker for the detection, prognosis, and management of cancer, as well as for monitoring the response to cancer treatment. Moreover, several efforts are also being made to elucidate its underlying mechanisms in therapeutic resistance and immunomodulation within the tumor microenvironment. We hereby summarize the current knowledge on midkine expression and function in cancer development and progression, and highlight its promising potential as a cancer biomarker and as a future therapeutic target in personalized cancer medicine.",
+            "citation":"Filippou PS, Karagiannis GS, Constantinidou A. Midkine (MDK) growth factor: a key player in cancer progression and a promising therapeutic target. Oncogene. 2020 Mar;39(10):2040-2054. doi: 10.1038/s41388-019-1124-8. Epub 2019 Dec 4. PMID: 31801970."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/27080241/",
+            "title":"Distinguishing between resistance, tolerance and persistence to antibiotic treatment",
+            "author":[
+               "Asher Brauner",
+               "Ofer Fridman",
+               "Orit Gefen",
+               "Nathalie Q Balaban"
+            ],
+            "pm_id":"27080241",
+            "pmc_id":"n/a",
+            "doi":"10.1038/nrmicro.2016.34",
+            "abstract":"Antibiotic tolerance is associated with the failure of antibiotic treatment and the relapse of many bacterial infections. However, unlike resistance, which is commonly measured using the minimum inhibitory concentration (MIC) metric, tolerance is poorly characterized, owing to the lack of a similar quantitative indicator. This may lead to the misclassification of tolerant strains as resistant, or vice versa, and result in ineffective treatments. In this Opinion article, we describe recent studies of tolerance, resistance and persistence, outlining how a clear and distinct definition for each phenotype can be developed from these findings. We propose a framework for classifying the drug response of bacterial strains according to these definitions that is based on the measurement of the MIC together with a recently defined quantitative indicator of tolerance, the minimum duration for killing (MDK). Finally, we discuss genes that are associated with increased tolerance - the 'tolerome' - as targets for treating tolerant bacterial strains.",
+            "citation":"Brauner A, Fridman O, Gefen O, Balaban NQ. Distinguishing between resistance, tolerance and persistence to antibiotic treatment. Nat Rev Microbiol. 2016 Apr;14(5):320-30. doi: 10.1038/nrmicro.2016.34. PMID: 27080241."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/30773478/",
+            "title":"DNA damage repair alterations modulate M2 polarization of microglia to remodel the tumor microenvironment via the p53-mediated MDK expression in glioma",
+            "author":[
+               "Xiangqi Meng",
+               "Chunbin Duan",
+               "Hengyuan Pang",
+               "Qun Chen",
+               "Bo Han",
+               "Caijun Zha",
+               "Magafurov Dinislam",
+               "Pengfei Wu",
+               "Ziwei Li",
+               "Shihong Zhao",
+               "Ruijia Wang",
+               "Lin Lin",
+               "Chuanlu Jiang",
+               "Jinquan Cai"
+            ],
+            "pm_id":"30773478",
+            "pmc_id":"PMC6442002",
+            "doi":"10.1016/j.ebiom.2019.01.067",
+            "abstract":"Background:\n        \n      \n      DNA damage repair (DDR) alterations are important events in cancer initiation, progression, and therapeutic resistance. However, the involvement of DDR alterations in glioma malignancy needs further investigation. This study aims to characterize the clinical and molecular features of gliomas with DDR alterations and elucidate the biological process of DDR alterations that regulate the cross talk between gliomas and the tumor microenvironment.",
+            "citation":"Meng X, Duan C, Pang H, Chen Q, Han B, Zha C, Dinislam M, Wu P, Li Z, Zhao S, Wang R, Lin L, Jiang C, Cai J. DNA damage repair alterations modulate M2 polarization of microglia to remodel the tumor microenvironment via the p53-mediated MDK expression in glioma. EBioMedicine. 2019 Mar;41:185-199. doi: 10.1016/j.ebiom.2019.01.067. Epub 2019 Feb 14. PMID: 30773478; PMCID: PMC6442002."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/31590198/",
+            "title":"[The MDK as an Institution for Quality Assurance in the German Health System: A Practice Report on Quality Audits Based on the Guideline on Minimally Invasive Heart Valve Interventions of the G-BA]",
+            "author":[
+               "Sebastian Ritter",
+               "Frauke Lehr",
+               "Thomas Gaertner",
+               "J\u00f6rg van Essen"
+            ],
+            "pm_id":"31590198",
+            "pmc_id":"n/a",
+            "doi":"10.1055/a-0996-8496",
+            "abstract":"Introduction:\n        \n      \n      In 2015, the Federal Joint Committee (G-BA) adopted a guideline on minimally invasive heart valve interventions (MHI-RL). Every year, hospitals have to declare compliance with the quality requirements of the guideline in the form of checklists vis-\u00e0-vis the social service providers, who can have the data checked by the medical service of the health insurance (MDK) on site. Here we report on the experience with these tests in Hessian hospitals.",
+            "citation":"Ritter S, Lehr F, Gaertner T, van Essen J. Der MDK als Institution der Qualit\u00e4tssicherung im deutschen Gesundheitssystem: Qualit\u00e4tspr\u00fcfungen auf Basis der Richtlinie zu minimalinvasiven Herzklappeninterventionen des G-BA \u2013 ein Praxisbericht [The MDK as an Institution for Quality Assurance in the German Health System: A Practice Report on Quality Audits Based on the Guideline on Minimally Invasive Heart Valve Interventions of the G-BA]. Gesundheitswesen. 2020 Jul;82(7):578-583. German. doi: 10.1055/a-0996-8496. Epub 2019 Oct 7. PMID: 31590198."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/30457776/",
+            "title":"Pharmacoeconomic Review Report: Nitisinone (MDK-Nitisinone): (MendeliKABS Inc.) [Internet]",
+            "author":[
+               "n/a"
+            ],
+            "pm_id":"30457776",
+            "pmc_id":"n/a",
+            "doi":"n/a",
+            "abstract":"Nitisinone (MDK-Nitisinone) is an inhibitor of the tyrosine catabolic pathway and is indicated for patients with hereditary tyrosinemia type 1 (HT-1), in combination with dietary restriction of tyrosine and phenylalanine. Nitisinone is available as 2 mg, 5 mg, 10 mg, and 20 mg capsules. The submitted price of nitisinone is based on dose: 2 mg ($14.78), 5 mg ($34.18), 10 mg ($64.70) and 20 mg ($128.10). The recommended initial daily dose of nitisinone is 1 mg/kg body weight divided into two doses administered orally. The dosage of nitisinone should be increased to 1.5 mg/kg/day in patients whose plasma and urine succinylacetone are still detectable one month after starting treatment; a maximum of 2 mg/kg/day may be needed based on evaluation of all biochemical parameters. If the biochemical response is satisfactory, dosage should be adjusted only according to body weight gain.",
+            "citation":"Pharmacoeconomic Review Report: Nitisinone (MDK-Nitisinone): (MendeliKABS Inc.): Indication: for the treatment of HT-1 in combination with dietary restriction of tyrosine and phenylalanine [Internet]. Ottawa (ON): Canadian Agency for Drugs and Technologies in Health; 2018 Apr. PMID: 30457776."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/30457782/",
+            "title":"Clinical Review Report: Nitisinone (MDK-Nitisinone): (MendeliKABS Inc.) [Internet]",
+            "author":[
+               "n/a"
+            ],
+            "pm_id":"30457782",
+            "pmc_id":"n/a",
+            "doi":"n/a",
+            "abstract":"Hereditary tyrosinemia type 1 (HT-1) is a rare, autosomal recessive disorder of amino acid metabolism. The deficiency of fumarylacetoacetate hydrolase (FAH), which is the last enzyme in the pathway of tyrosine catabolism, results in the accumulation of toxic metabolites in the FAH-deficient hepatocytes and proximal renal tubular cells, and subsequently leads to liver and kidney damage. HT-1 typically manifests in infancy and is characterized by elevated plasma tyrosine levels. For children whose HT-1 is not detected by the newborn screening, liver dysfunction, such as bleeding abnormalities, hypoglycemia, ascites, edema, vomiting, irritability, and jaundice, is the dominant clinical manifestation. Progression of the liver disease can be chronic or acute, with rapid deterioration. The lifetime risk of developing hepatocellular carcinoma (HCC) is as high as 37% in the survivors without treatment, according to previous research. Many patients also suffer from neurocognitive deficits. If untreated, survival in patients with HT-1 is less than 12 months of life; most of these children die as a result of liver failure and severe coagulopathy. The prevalence of HT-1 ranges from one in 12,000 to one in 100,000 individuals of Northern European descent. In Canada, higher prevalence (one in 1,846 live births) was observed in the Saguenay\u2013Lac Saint-Jean region in Quebec.",
+            "citation":"Clinical Review Report: Nitisinone (MDK-Nitisinone): (MendeliKABS Inc.): Indication: For the treatment of patients with hereditary tyrosinemia type 1 in combination with dietary restriction of tyrosine and phenylalanine [Internet]. Ottawa (ON): Canadian Agency for Drugs and Technologies in Health; 2018 Apr. PMID: 30457782."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/32474613/",
+            "title":"[The MDK Reform Act with all subsequent amendments : As amended by the Second Act for the Protection of the Population in the Event of an Epidemic Situation of National Significance]",
+            "author":[
+               "I Schroeder-Printzen",
+               "J Schroeder-Printzen"
+            ],
+            "pm_id":"32474613",
+            "pmc_id":"PMC7261045",
+            "doi":"10.1007/s00120-020-01245-2",
+            "abstract":"n/a",
+            "citation":"Schroeder-Printzen I, Schroeder-Printzen J. Das MDK-Reformgesetz mit allen nachfolgenden \u00c4nderungen : In der Fassung des Zweiten Gesetzes zum Schutz der Bev\u00f6lkerung bei einer epidemischen Lage von nationaler Tragweite [The MDK Reform Act with all subsequent amendments : As amended by the Second Act for the Protection of the Population in the Event of an Epidemic Situation of National Significance]. Urologe A. 2020 Jul;59(7):843-848. German. doi: 10.1007/s00120-020-01245-2. PMID: 32474613; PMCID: PMC7261045."
+         },
+         {
+            "keyword":"MDK",
+            "link":"https://pubmed.ncbi.nlm.nih.gov/33077955/",
+            "title":"Midkine rewires the melanoma microenvironment toward a tolerogenic and immune-resistant state",
+            "author":[
+               "Daniela Cerezo-Wallis",
+               "Marta Contreras-Alcalde",
+               "Kevin Troul\u00e9",
+               "Xavier Catena",
+               "Cynthia Mucientes",
+               "Tonantzin G Calvo",
+               "Estela Ca\u00f1\u00f3n",
+               "Cristina Tejedo",
+               "Paula C Pennacchi",
+               "Sabrina Hogan",
+               "Peter K\u00f6lblinger",
+               "H\u00e9ctor Tejero",
+               "Andrew X Chen",
+               "Nuria Ibarz",
+               "Osvaldo Gra\u00f1a-Castro",
+               "Lola Martinez",
+               "Javier Mu\u00f1oz",
+               "Pablo Ortiz-Romero",
+               "Jos\u00e9 L Rodriguez-Peralto",
+               "Gonzalo G\u00f3mez-L\u00f3pez",
+               "F\u00e1tima Al-Shahrour",
+               "Ra\u00fal Rabad\u00e1n",
+               "Mitchell P Levesque",
+               "David Olmeda",
+               "Mar\u00eda S Soengas"
+            ],
+            "pm_id":"33077955",
+            "pmc_id":"n/a",
+            "doi":"10.1038/s41591-020-1073-3",
+            "abstract":"An open question in aggressive cancers such as melanoma is how malignant cells can shift the immune system to pro-tumorigenic functions. Here we identify midkine (MDK) as a melanoma-secreted driver of an inflamed, but immune evasive, microenvironment that defines poor patient prognosis and resistance to immune checkpoint blockade. Mechanistically, MDK was found to control the transcriptome of melanoma cells, allowing for coordinated activation of nuclear factor-\u03baB and downregulation of interferon-associated pathways. The resulting MDK-modulated secretome educated macrophages towards tolerant phenotypes that promoted CD8+ T cell dysfunction. In contrast, genetic targeting of MDK sensitized melanoma cells to anti-PD-1/anti-PD-L1 treatment. Emphasizing the translational relevance of these findings, the expression profile of MDK-depleted tumors was enriched in key indicators of a good response to immune checkpoint blockers in independent patient cohorts. Together, these data reveal that MDK acts as an internal modulator of autocrine and paracrine signals that maintain immune suppression in aggressive melanomas.",
+            "citation":"Cerezo-Wallis D, Contreras-Alcalde M, Troul\u00e9 K, Catena X, Mucientes C, Calvo TG, Ca\u00f1\u00f3n E, Tejedo C, Pennacchi PC, Hogan S, K\u00f6lblinger P, Tejero H, Chen AX, Ibarz N, Gra\u00f1a-Castro O, Martinez L, Mu\u00f1oz J, Ortiz-Romero P, Rodriguez-Peralto JL, G\u00f3mez-L\u00f3pez G, Al-Shahrour F, Rabad\u00e1n R, Levesque MP, Olmeda D, Soengas MS. Midkine rewires the melanoma microenvironment toward a tolerogenic and immune-resistant state. Nat Med. 2020 Dec;26(12):1865-1877. doi: 10.1038/s41591-020-1073-3. Epub 2020 Oct 19. PMID: 33077955."
+         }
+      ]
+   ],
+   "count":37
+}

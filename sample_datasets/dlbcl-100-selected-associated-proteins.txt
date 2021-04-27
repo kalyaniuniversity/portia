@@ -1,0 +1,73 @@
+[
+   {
+      "gene_name":"X67683_at",
+      "proteins":[
+         "KRT4"
+      ]
+   },
+   {
+      "gene_name":"U28386_at",
+      "proteins":[
+         "KPNA2",
+         "KPNA2"
+      ]
+   },
+   {
+      "gene_name":"D83032_at",
+      "proteins":[
+         "ZNF638"
+      ]
+   },
+   {
+      "gene_name":"HG2320-HT2416_at",
+      "proteins":[
+         "n/a"
+      ]
+   },
+   {
+      "gene_name":"HG2414-HT2510_s_at",
+      "proteins":[
+         "n/a"
+      ]
+   },
+   {
+      "gene_name":"U42360_cds2_at",
+      "proteins":[
+         "TUSC3(1-348)",
+         "TUSC3(1-348)"
+      ]
+   },
+   {
+      "gene_name":"X78136_at",
+      "proteins":[
+         "PCBP2",
+         "PCBP2"
+      ]
+   },
+   {
+      "gene_name":"X03100_cds2_at",
+      "proteins":[
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor",
+         "HLA class II histocompatibility antigen, DP alpha chain precursor"
+      ]
+   },
+   {
+      "gene_name":"U22233_at",
+      "proteins":[
+         "MTAP"
+      ]
+   },
+   {
+      "gene_name":"HG3364-HT3541_at",
+      "proteins":[
+         "n/a"
+      ]
+   }
+]

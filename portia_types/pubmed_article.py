@@ -4,6 +4,7 @@ from typing import TypedDict
 
 
 class ArticleDictionary(TypedDict):
+    keyword: str
     link: str
     title: str
     author: List[str]

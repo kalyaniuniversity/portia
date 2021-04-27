@@ -12,13 +12,14 @@ class PubMedScrapper:
     def __init__(self):
         self._pdf = PubmedDataFetcher()
 
-    def fetch_article_details(self, tag: str) -> ArticleDictionary:
+    def fetch_article_details(self, tag: str, keyword: str) -> ArticleDictionary:
 
         article_link: str = "https://pubmed.ncbi.nlm.nih.gov" + tag
         html_content = requests.get(article_link).text
         soup = BeautifulSoup(html_content, "lxml")
 
         article_details: ArticleDictionary = {
+            'keyword': keyword,
             'link': article_link,
             'title': self._pdf.fetch_article_title(soup),
             'author': self._pdf.fetch_article_author(soup),
@@ -31,12 +32,12 @@ class PubMedScrapper:
 
         return article_details
 
-    def fetch_article_details_list(self, tag_list: List[str], get_citation: bool = False) -> List[ArticleDictionary]:
+    def fetch_article_details_list(self, keyword: str, tag_list: List[str], get_citation: bool = False) -> List[ArticleDictionary]:
 
         article_detail_list: List[ArticleDictionary] = []
 
         for tag in tag_list:
-            article_detail_list.append(self.fetch_article_details(tag))
+            article_detail_list.append(self.fetch_article_details(tag, keyword))
 
         if get_citation:
 
@@ -57,11 +58,21 @@ class PubMedScrapper:
         soup = BeautifulSoup(html_content, "lxml")
 
         if 'No results were found.' in str(soup.find("div", attrs={"class": "results-amount"}).text):
-            print("Your Keyword is wrong")
-            exit()
+            print("no associated article found with search term -> ", tag)
+            return [{
+                'keyword': tag,
+                'link': 'n/a',
+                'title': 'n/a',
+                'author': 'n/a',
+                'pm_id': 'n/a',
+                'pmc_id': 'n/a',
+                'doi': 'n/a',
+                'abstract': 'n/a',
+                'citation': None
+            }]
         else:
             article_content = soup.find_all("article", attrs={"class": "full-docsum"})
             for article in article_content:
                 generated_tag_list.append(str(article.find("a", attrs={"class": "docsum-title"})['href']).strip())
 
-        return self.fetch_article_details_list(generated_tag_list, get_citation)
+        return self.fetch_article_details_list(tag, generated_tag_list, get_citation)

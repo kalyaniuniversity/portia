@@ -14,7 +14,7 @@ def _drive(url: str) -> WebDriver:
     driver: WebDriver = config.get_chrome_driver()
     driver.get(url)
     driver_content: WebDriver = driver.page_source
-    driver.close()
+    # driver.close()
 
     return driver_content
 
