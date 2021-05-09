@@ -6,7 +6,6 @@ from web_scrapper.pubmed_data_fetcher import PubmedDataFetcher
 
 
 class PubMedScrapper:
-
     _pdf: PubmedDataFetcher
 
     def __init__(self):
@@ -57,22 +56,41 @@ class PubMedScrapper:
         html_content = requests.get(url).text
         soup = BeautifulSoup(html_content, "lxml")
 
-        if 'No results were found.' in str(soup.find("div", attrs={"class": "results-amount"}).text):
-            print("no associated article found with search term -> ", tag)
+        if(soup.find(
+                "div",
+                attrs={"class": "results-amount"}
+        ) is not None):
+            if 'No results were found.' in str(soup.find(
+                    "div",
+                    attrs={"class": "results-amount"}
+            ).text):
+                print("no associated article found with search term -> ", tag)
+                return [{
+                    'keyword': tag,
+                    'link': 'n/a',
+                    'title': 'n/a',
+                    'author': 'n/a',
+                    'pm_id': 'n/a',
+                    'pmc_id': 'n/a',
+                    'doi': 'n/a',
+                    'abstract': 'n/a',
+                    'citation': None
+                }]
+            else:
+                article_content = soup.find_all("article", attrs={"class": "full-docsum"})
+                for article in article_content:
+                    generated_tag_list.append(str(article.find("a", attrs={"class": "docsum-title"})['href']).strip())
+        else:
             return [{
                 'keyword': tag,
-                'link': 'n/a',
-                'title': 'n/a',
-                'author': 'n/a',
-                'pm_id': 'n/a',
-                'pmc_id': 'n/a',
-                'doi': 'n/a',
-                'abstract': 'n/a',
+                'link': url,
+                'title': self._pdf.fetch_article_title(soup),
+                'author': self._pdf.fetch_article_author(soup),
+                'pm_id': self._pdf.fetch_article_pm_id(soup),
+                'pmc_id': self._pdf.fetch_article_pmc_id(soup),
+                'doi': self._pdf.fetch_article_doi_id(soup),
+                'abstract': self._pdf.fetch_article_abstract(soup),
                 'citation': None
             }]
-        else:
-            article_content = soup.find_all("article", attrs={"class": "full-docsum"})
-            for article in article_content:
-                generated_tag_list.append(str(article.find("a", attrs={"class": "docsum-title"})['href']).strip())
 
         return self.fetch_article_details_list(tag, generated_tag_list, get_citation)
