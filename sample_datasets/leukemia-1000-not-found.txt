@@ -1,0 +1,76 @@
+# gene name -> D88422_at
+        * protein -> CSTA
+[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 90.0.4430
+[WDM] - Get LATEST driver version for 90.0.4430
+[WDM] - Driver [/Users/sajib/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver] found in cache
+        * protein -> CSTA
+# gene name -> M94250_at
+        * protein -> MDK
+# gene name -> X80822_at
+        * protein -> RPL18A
+# gene name -> U70063_at
+        * protein -> ASAH1(22-142)
+no associated article found with search term ->  ASAH1(22-142)
+        * protein -> ASAH1(143-395)
+no associated article found with search term ->  ASAH1(143-395)
+        * protein -> ASAH1(143-395)
+no associated article found with search term ->  ASAH1(143-395)
+        * protein -> ASAH1(22-142)
+no associated article found with search term ->  ASAH1(22-142)
+        * protein -> ASAH1(143-395)
+no associated article found with search term ->  ASAH1(143-395)
+        * protein -> ASAH1(22-142)
+no associated article found with search term ->  ASAH1(22-142)
+        * protein -> ASAH1(22-142)
+no associated article found with search term ->  ASAH1(22-142)
+        * protein -> ASAH1(143-395)
+no associated article found with search term ->  ASAH1(143-395)
+# gene name -> U28131_at
+        * protein -> n/a
+# gene name -> M85289_at
+        * protein -> HSPG2(3687-4391)
+        * protein -> HSPG2(22-4391)
+        * protein -> HSPG2(?-4391)
+no associated article found with search term ->  HSPG2(?-4391)
+        * protein -> HSPG2(22-?)
+        * protein -> HSPG2(4197-4391)
+        * protein -> HSPG2(22-4196)
+        * protein -> HSPG2(22-4391)
+        * protein -> HSPG2(22-4391)
+        * protein -> HSPG2(22-4391)
+        * protein -> XylS-HSPG2(22-4391)
+no associated article found with search term ->  XylS-HSPG2(22-4391)
+        * protein -> Gal-Xyl-HSPG2
+no associated article found with search term ->  Gal-Xyl-HSPG2
+        * protein -> Gal-Gal-Xyl-HSPG2
+no associated article found with search term ->  Gal-Gal-Xyl-HSPG2
+        * protein -> GlcA-Gal-Gal-Xyl-HSPG2
+no associated article found with search term ->  GlcA-Gal-Gal-Xyl-HSPG2
+        * protein -> HS(3)-HSPG2
+        * protein -> HS(4)-HSPG2
+        * protein -> HS(2)-HSPG2
+        * protein -> HS(1)-HSPG2
+        * protein -> Heparan(4)-HSPG2
+        * protein -> Heparan(3)-HSPG2
+        * protein -> Heparan(2)-HSPG2
+        * protein -> Heparan(1)-HSPG2
+        * protein -> Heparan-HSPG2
+no associated article found with search term ->  Heparan-HSPG2
+        * protein -> HS(5)-HSPG2
+        * protein -> HS(6)-HSPG2
+        * protein -> HS(4)-HSPG2
+        * protein -> HS(6)-HSPG2
+        * protein -> HS(2)-HSPG2
+        * protein -> HS(1)-HSPG2
+        * protein -> HS(3)-HSPG2
+        * protein -> HS(5)-HSPG2
+# gene name -> D88270_at
+        * protein -> VPREB1
+# gene name -> AFFX-BioC-5_at
+        * protein -> Biocytin
+# gene name -> X69150_at
+        * protein -> RPS18
+        * protein -> RPS18
+# gene name -> L23959_at
+        * protein -> TFDP1

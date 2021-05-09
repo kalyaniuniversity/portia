@@ -86,7 +86,7 @@ def prepare_leukemia_1000() -> None:
     prepare_article(
         'sample_datasets/leukemia-1000-selected.txt',
         keywords + ['ALL', 'AML', 'ALL-AML'],
-        'sample_datasets/leukemia-1000-selected-articles.txt'
+        'sample_datasets/leukemia-1000-selected-articles.json'
     )
 
 
@@ -111,9 +111,11 @@ def prepare_article(
 
     for associated_proteins in associated_proteins_list:
 
+        print('# gene name ->', associated_proteins['gene_name'])
         proteins: List[str] = associated_proteins['proteins']
 
         for protein in proteins:
+            print('\t* protein ->', protein)
             if protein != "n/a":
                 articles: List[ArticleDictionary] = pubmg.fetch_with_associated_keywords(
                     protein,
@@ -137,7 +139,7 @@ def main() -> None:
     # prepare_gse412_1000()
     # prepare_gse412_all()
     # prepare_leukemia_100() # done
-    # prepare_leukemia_1000()
+    # prepare_leukemia_1000() # done
     # prepare_leukemia_all()
 
 
