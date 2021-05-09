@@ -137,3 +137,7 @@ output/
 __temp__/
 _temp_/
 input/
+test_portia.py
+*-not-found.txt
+*-selected-articles.json
+*-selected-associated-proteins.txt
